@@ -4,6 +4,8 @@ import './BuscaCep.css';
 export default function BuscaCep() {
   const [cep, setCep] = useState('29111-625');
   const [raio, setRaio] = useState('10');
+  const [buscaRealizada, setBuscaRealizada] = useState(false);
+  const [resultados, setResultados] = useState([]);
 
   return (
     <div className="busca-cep-container">
@@ -33,22 +35,42 @@ export default function BuscaCep() {
           />
         </div>
 
-        <button className="btn-buscar">
+        <button className="btn-buscar" onClick={() => setBuscaRealizada(true)}>
           Buscar CEPs
         </button>
       </div>
 
-      <div className="result-card">
-        <div>
-          <p className="result-title">CEP de origem: {cep}</p>
-          <p className="result-address">Rua Teolândia, Cobilândia, Vila Velha/ES</p>
+      {buscaRealizada && (
+        <div className="result-card">
+          <div>
+            <p className="result-title">CEP de origem: {cep}</p>
+            <p className="result-address">Rua Teolândia, Cobilândia, Vila Velha/ES</p>
+          </div>
         </div>
-      </div>
+      )}
 
-      <div className="results-header">
-        <h2>Resultados</h2>
-        <span>0 CEPs encontrados</span>
-      </div>
+      {buscaRealizada && (
+        <>
+            <div className="results-header">
+            <h2>Resultados</h2>
+            <span>CEPs encontrados</span>
+            </div>
+
+            <div className="results-list">
+                {resultados.length === 0 ? (
+                    <p className="no-results">Nenhum CEP encontrado dentro do raio especificado.</p>
+                ) : (
+                    <ul className="cep-list">
+                        {resultados.map((item, index) => (
+                            <li key={index} className="cep-item">
+                                <strong>{item.cep}</strong> - {item.logradouro}
+                            </li>
+                        ))}
+                    </ul>
+                )}
+            </div>
+        </>
+      )}
     </div>
   );
 }

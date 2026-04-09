@@ -17,7 +17,6 @@
   gap: 12px;
 }
 
-
 .header h1 {
   font-size: 28px;
   margin: 0;
@@ -52,7 +51,6 @@
   font-weight: 600;
 }
 
-
 .form-group input {
   width: 100%;
   padding: 10px 12px; /* Isso garante o espaçamento normal do texto */
@@ -62,10 +60,6 @@
   box-sizing: border-box;
   background-color: white; /* Garante que o fundo do input seja branco */
   color: #334155;
-}
-
-.input-wrapper input {
-  padding-left: 36px;
 }
 
 .form-group input:focus {
@@ -100,6 +94,7 @@
   display: flex;
   gap: 12px;
   align-items: flex-start;
+  animation: surgir 0.2s ease-out;
 }
 
 
@@ -120,6 +115,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 8px;
+  animation: surgir 0.2s ease-out;
 }
 
 .results-header h2 {
@@ -130,4 +126,53 @@
 .results-header span {
   color: #64748b;
   font-size: 14px;
+}
+
+.results-list {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 16px;
+    animation: surgir 0.2s ease-out;
+}
+
+.no-results {
+    text-align: center;
+    color: #64748b;
+    font-size: 15px;
+    margin: 0;
+}
+
+.cep-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cep-item {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 14px;
+  color: #334155;
+}
+
+/* Tira a linha de baixo do último item da lista */
+.cep-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+@keyframes surgir {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
 }

@@ -1,7 +1,14 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, OnModuleInit, NotFoundException } from '@nestjs/common';
+import * as fs from 'fs'
+import * as path from 'path'
+import csv from 'csv-parser'
+import KDBush from 'kdbush'
+import * as geokdbush from 'geokdbush';
 
 @Injectable()
-export class CepService {
+export class CepService implements OnModuleInit {
+
+    private index: any;
 
     private readonly mockCeps = [
         { cep: '29111-625', logradouro: 'Rua Teolândia', cidade: 'Vila Velha/ES', lat: -20.354, lon: -40.357 },
@@ -9,33 +16,37 @@ export class CepService {
         { cep: '29010-000', logradouro: 'Centro', cidade: 'Vitória/ES', lat: -20.319, lon: -40.337 },
         { cep: '01001-000', logradouro: 'Praça da Sé', cidade: 'São Paulo/SP', lat: -23.550, lon: -46.633 },
     ];
+
+    onModuleInit(){
+        console.log('Montando Índice Espacial com os dados de Mock...');
+        this.index = new KDBush(this.mockCeps, (p: any) => p.lon, (p: any) => p.lat);
+        console.log('Índice KDBush criado com sucesso!');
+    }
     async buscarCepsProximos(cepOrigem: string, raioKm: number): Promise<any[]> {
         // 1. Procurar o CEP digitado, na base de dados
         const origem = this.mockCeps.find(item => item.cep === cepOrigem);
         if (!origem) {
             throw new Error('CEP de origem não encontrado');
         }
-        // 2. Filtrar quem está dentro do raio
-        const resultados = this.mockCeps.filter(destino => {
-            if (destino.cep === cepOrigem) return false; // Ignora o próprio CEP de origem
 
-            // Calcula distancia usando as coordenadas (lat/lon) 
-            const distancia = this.calcularDistancia(origem.lat, origem.lon, destino.lat, destino.lon);
-            destino['distanciaKm'] = Number(distancia.toFixed(2));
-            return distancia <= raioKm;
-        });
-        return resultados.sort((a, b) => a['distanciaKm'] - b['distanciaKm']); // Ordena do mais próximo para o mais distante
-    }
+        const vizinhos = geokdbush.around(
+            this.index,
+            origem.lon,
+            origem.lat,
+            Infinity, // sem limite de resultados
+            raioKm
+        );
 
-    private calcularDistancia(lat1: number, lon1: number, lat2: number, lon2: number): number {
-        const raioTerra = 6371; // Raio da Terra em km
-        const distanciaLat = (lat2 - lat1) * Math.PI / 180;
-        const distanciaLong = (lon2 - lon1) * Math.PI / 180;
-        const a =
-            Math.sin(distanciaLat / 2) * Math.sin(distanciaLat / 2) +
-            Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) * Math.sin(distanciaLong / 2);
-
-        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        return raioTerra * c;
+        return vizinhos
+            .map((resultado: any) => typeof resultado === 'number' ? this.mockCeps[resultado] : resultado)
+            .filter((destino: any) => destino.cep !== cepOrigem) // excluir o próprio CEP de origem
+            .map((destino: any) => {
+                const distancia = geokdbush.distance(origem.lon, origem.lat, destino.lon, destino.lat);
+                return {
+                    ...destino,
+                    distanciaKm: (distancia.toFixed(2))
+                };
+            });
+       
     }
 }

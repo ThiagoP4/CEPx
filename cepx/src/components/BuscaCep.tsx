@@ -7,6 +7,22 @@ export default function BuscaCep() {
   const [buscaRealizada, setBuscaRealizada] = useState(false);
   const [resultados, setResultados] = useState([]);
 
+  const realizarBusca = async () => {
+    setBuscaRealizada(true);
+
+    try {
+      const resposta = await fetch(`http://localhost:3000/cep/busca?origem=${cep}&raio=${raio}`);
+      if (!resposta.ok) {
+        throw new Error(`Erro na resposta: ${resposta.statusText}`);
+      }
+      const dados = await resposta.json();
+      setResultados(dados);
+    } catch (error) {
+      console.error('Erro ao buscar CEPs:', error);
+      alert('Ocorreu um erro ao buscar os CEPs. Por favor, tente novamente mais tarde.');
+    }
+  };
+
   return (
     <div className="busca-cep-container">
       <div className="header">
@@ -35,7 +51,7 @@ export default function BuscaCep() {
           />
         </div>
 
-        <button className="btn-buscar" onClick={() => setBuscaRealizada(true)}>
+        <button className="btn-buscar" onClick={realizarBusca}>
           Buscar CEPs
         </button>
       </div>
@@ -54,6 +70,7 @@ export default function BuscaCep() {
             <div className="results-header">
             <h2>Resultados</h2>
             <span>CEPs encontrados</span>
+            <span>{resultados.length} CEPs encontrados</span>
             </div>
 
             <div className="results-list">
@@ -63,7 +80,7 @@ export default function BuscaCep() {
                     <ul className="cep-list">
                         {resultados.map((item, index) => (
                             <li key={index} className="cep-item">
-                                <strong>{item.cep}</strong> - {item.logradouro}
+                                <strong>{item.cep}</strong> - {item.logradouro} - {item.cidade} <span className="distance">({item.distanciaKm} km)</span>
                             </li>
                         ))}
                     </ul>

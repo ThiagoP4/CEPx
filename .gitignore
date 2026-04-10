@@ -1,0 +1,17 @@
+# Arquivos CSV brutos de origem (dados não processados)
+# A versão processada fica em api/data/
+*.csv
+!api/data/*.csv
+
+# Dependências
+node_modules/
+
+# Imagens temporárias / capturas de tela
+image.png
+*.png
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store

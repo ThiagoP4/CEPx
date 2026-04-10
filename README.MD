@@ -48,15 +48,15 @@ A leitura dos arquivos CSV é feita via `fs.createReadStream` com `csv-parser`, 
 
 Após a carga inicial, todos os CEPs são indexados em uma estrutura **KD-Tree** (`KDBush`). A busca por raio usa o algoritmo `geokdbush.around()`, que opera em **O(log n)** — muito mais eficiente que uma varredura linear O(n) sobre todos os registros.
 
-### 📍 Geocodificação por Jitter Determinístico
+### 📍 Geocodificação Exata (Enriquecimento Offline)
 
-A base de dados pública disponível oferece coordenadas em nível de município. Para diferenciar logradouros dentro da mesma cidade, aplicamos **jitter geocoding**:
+Para garantir precisão em nível de GPS sem comprometer a inicialização do servidor (startup) ou estourar limites de requisições de APIs externas (Rate Limit), a arquitetura utiliza a estratégia de Enriquecimento Offline:
 
-- A posição da cidade é **real**, extraída da base geocodificada (`ceps.csv`)
-- O offset de cada CEP individual é calculado via **Hash Multiplicativo de Knuth** (determinístico: mesmo CEP → sempre mesma coordenada)
-- A distribuição no disco usa coordenadas polares com `raio = √hash`, garantindo distribuição uniforme sem acúmulo no centro
+Script Isolado: Um robô processa os arquivos CSV brutos offline, consultando a API do CEP Aberto para obter a Latitude e Longitude reais de cada logradouro.
 
-Esta técnica é padrão na indústria para conjuntos de dados com precisão em nível de município.
+Base Definitiva: Os dados geocodificados são salvos em novos arquivos *_enriquecido.csv.
+
+Alta Performance: Em produção, a API Node.js não faz cálculos matemáticos complexos (como jitter geocoding) nem chamadas HTTP externas. Ela apenas consome os arquivos enriquecidos, resultando em um tempo de boot de milissegundos e buscas absurdamente rápidas.
 
 ---
 
@@ -87,7 +87,11 @@ npm run dev
 
 O frontend estará disponível em `http://localhost:5173`.
 
-> 💡 Copie `cepx/.env.example` para `cepx/.env` e ajuste `VITE_API_URL` se necessário.
+> 💡 Copie os arquivos de exemplo para um `.env` local:
+> - `api/.env.example` → `api/.env`
+> - `cepx/.env.example` → `cepx/.env`
+> 
+> Ajuste `PORT`, `ALLOWED_ORIGIN` e `VITE_API_URL` conforme o seu ambiente.
 
 ---
 

@@ -1,0 +1,632 @@
+cep,logradouro,complemento,bairro,id_cidade,id_estado,lat,lon
+12312475,"Rua Fábio Andreotti","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312480,"Rua Carlos Brison","","Jardim Santa Marina",4595,26,-23.2961881,-45.9315952
+12312485,"Rua Vigilato Mancilha de Almeida","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312490,"Rua José Luiz de Brito","","Jardim Santa Marina",4595,26,-23.2967189,-45.9307647
+12312495,"Rua Mário Gonçalves de Campos","","Jardim Santa Marina",4595,26,-23.2969909,-45.9303315
+12312500,"Rua Nacib Abrahão Neme","","Jardim Santa Marina",4595,26,-23.297266,-45.929902
+12312505,"Rua José Borrego","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312510,"Rua José Lino da Silva","","Jardim Santa Marina",4595,26,-23.2973499922,-45.9743296047
+12312515,"Rua Miguel Faria","","Jardim Santa Marina",4595,26,-23.2980356,-45.9286561
+12312520,"Rua Jorge Rodrigues de Araújo","","Jardim Santa Marina",4595,26,-23.2982512,-45.9282066
+12312525,"Rua Ursulina Quina de Siqueira","","Jardim Santa Marina",4595,26,-23.2985403,-45.9277881
+12312530,"Rua Darcy Ribeiro","","Jardim Santa Marina",4595,26,-23.2971117,-45.9270541
+12312535,"Rua Camilo Castelo Branco","","Jardim Santa Marina",4595,26,-23.2968448,-45.927483
+12312540,"Rua Junqueira Freire","","Jardim Santa Marina",4595,26,-23.2965954,-45.9279013
+12312545,"Rua Alexandre Herculano","","Jardim Santa Marina",4595,26,-23.2957723,-45.9291389
+12312550,"Rua Paulo Mendes Campos","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312553,"Rua Luís Carlos Martins Pena","","Jardim Santa Marina",4595,26,-23.2952922,-45.930013
+12312563,"Rua Eugenio de Castro","","Jardim Santa Marina",4595,26,-23.2949188,-45.9303384
+12312565,"Rua Antônio Nobre","","Jardim Santa Marina",4595,26,-23.2943078,-45.9289961
+12312570,"Rua Luis Vaz de Camões","","Jardim Santa Marina",4595,26,-23.2942692,-45.9283425
+12312575,"Rua Antônio Callado","","Jardim Santa Marina",4595,26,-23.2945195,-45.9279173
+12312580,"Rua Miguel Torga","","Jardim Santa Marina",4595,26,-23.294913,-45.9275829
+12312585,"Rua Visconde de Taunay","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312590,"Rua Paulo Leminski","","Jardim Santa Marina",4595,26,-23.2956038,-45.9268585
+12312595,"Rua César Camara de Lima Campos","","Jardim Santa Marina",4595,26,-23.2959711,-45.9265177
+12312600,"Rua Willian Shakespeare","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312605,"Avenida José Fortes Rangel","","Jardim Santa Marina",4595,26,-23.2944789,-45.9254646
+12312610,"Rua Piér José Ibrahim","","Jardim Santa Marina",4595,26,-23.2951292,-45.9257194
+12312615,"Rua Edmundo de Moraes","","Jardim Santa Marina",4595,26,-23.2946441,-45.9258196
+12312620,"Rua Francisco Patrocínio","","Jardim Santa Marina",4595,26,-23.2943804,-45.9263815
+12312625,"Rua Ercules Paulo Ribeiro","","Jardim Santa Marina",4595,26,-23.2938625,-45.9263944
+12312630,"Rua Padre Jonas Traversin","","Jardim Santa Marina",4595,26,-23.2931907,-45.9261002
+12312635,"Rua Paulo Roberto Galvão","","Jardim Santa Marina",4595,26,-23.2930176,-45.926857
+12312640,"Rua Irmã Dorothy Mae Stang","(Irmã Dorothy)","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312645,"Rua Vitalino Soares Leite","","Jardim Santa Marina",4595,26,-23.2921715,-45.9272875
+12312647,"Avenida João Lino Filho","","Jardim Santa Marina",4595,26,-23.2915122,-45.9269895
+12312650,"Rua Olívia de Souza Leite","","Jardim Santa Marina",4595,26,-23.2919349,-45.9261938
+12312655,"Rua José Antonio Matias","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312660,"Rua Zelita Ruth da Silva Costa","","Jardim Santa Marina",4595,26,-23.2987827,-45.9662542
+12312665,"Rua Professor Tarcísio Francisco Barbosa","","Jardim Santa Marina",4595,26,-23.2940937,-45.9251639
+12312670,"Rua Manoel Truyts","","Jardim Santa Marina",4595,26,-23.2945037,-45.924946
+12315000,"Avenida Orlando Marson","","Jardim Leblon",4595,26,-23.2987827,-45.9662542
+12315010,"Rodovia Nilo Máximo","- de 3813/3814 ao fim","Jardim Colônia",4595,26,-23.2987827,-45.9662542
+12315020,"Estrada Varadouro","","Jardim Colônia",4595,26,-23.3328656,-45.8841923
+12315030,"Estrada Silvano","","Jardim Colônia",4595,26,-23.3273987,-45.9152104
+12315040,"Rua Finlândia","","Jardim Colônia",4595,26,-23.3169016,-45.924252
+12315060,"Rua Suécia","","Jardim Colônia",4595,26,-23.3156067,-45.9229493
+12315070,"Rua Holanda","","Jardim Colônia",4595,26,-23.3165342,-45.9222842
+12315080,"Rua Austrália","","Jardim Colônia",4595,26,-23.3173725,-45.9218841
+12315090,"Rua Dinamarca","","Jardim Colônia",4595,26,-23.3187932,-45.9242355
+12315100,"Rua Yugoslávia","","Jardim Colônia",4595,26,-23.3179575,-45.9222957
+12315110,"Rua Tchecoslovaquia","","Jardim Colônia",4595,26,-23.3185525,-45.9226132
+12315120,"Rua Alemanha","","Jardim Colônia",4595,26,-23.3192744,-45.9205371
+12315130,"Rua Tailândia","","Jardim Colônia",4595,26,-23.3192744,-45.9205371
+12315140,"Rua Bruxelas","","Jardim Colônia",4595,26,-23.3199333,-45.9192814
+12315150,"Rua Escócia","","Jardim Colônia",4595,26,-23.3227045,-45.9185015
+12315160,"Rua Áustria","","Jardim Colônia",4595,26,-23.3233915,-45.9184542
+12315170,"Rua Polônia","","Jardim Colônia",4595,26,-23.3235853,-45.9192405
+12315180,"Rua Paraguai","","Jardim Colônia",4595,26,-23.3234577,-45.9201246
+12315190,"Rua Silvano","","Jardim Colônia",4595,26,-23.3238264,-45.9175195
+12315200,"Rua Venezuela","","Jardim Colônia",4595,26,-23.3229462,-45.9210226
+12315210,"Rua Israel","","Jardim Colônia",4595,26,-23.3224913,-45.920398
+12315220,"Rua Irlanda","","Jardim Colônia",4595,26,-23.3222317,-45.9215983
+12315230,"Rua Equador","","Jardim Colônia",4595,26,-23.3217398,-45.9220988
+12315240,"Rua Portugal","","Jardim Colônia",4595,26,-23.3213291,-45.9210871
+12315250,"Rua Egito","","Jardim Colônia",4595,26,-23.320708,-45.9213782
+12315260,"Rua Canadá","","Jardim Colônia",4595,26,-23.3213785,-45.9229525
+12315270,"Rua Romênia","","Jardim Colônia",4595,26,-23.3191237,-45.9214035
+12315280,"Rua Síria","","Jardim Colônia",4595,26,-23.3199247,-45.9217835
+12315290,"Rua Rússia","","Jardim Colônia",4595,26,-23.320578,-45.9229512
+12315300,"Rua África","","Jardim Colônia",4595,26,-23.3199132,-45.9231394
+12315310,"Rua Espanha","","Jardim Colônia",4595,26,-23.3199132,-45.9231394
+12315320,"Rua China","","Jardim Colônia",4595,26,-23.3195709,-45.9237692
+12315330,"Viela Cinco","","Jardim Colônia",4595,26,-23.3222965,-45.9263934
+12315450,"Praça das Açucenas","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3222255,-45.9257802
+12315451,"Avenida Elídia Pires de Siqueira","","Jardim Leblon",4595,26,-23.2987827,-45.9662542
+12315460,"Rua das Nenufas","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3218391,-45.9257113
+12315470,"Praça das Palmeiras","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3224291,-45.9258397
+12315480,"Rua dos Milindros","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3222737,-45.9250825
+12315490,"Rua das Avencas","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3236522,-45.9251745
+12315500,"Rua das Angélicas","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3246778,-45.9256883
+12315510,"Rua das Palmas","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3250175,-45.9252791
+12315520,"Rua das Petúnias","","Jardim Santo Antônio da Boa Vista",4595,26,-23.326037,-45.9252755
+12315530,"Rua dos Narcisos","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3272806,-45.9254755
+12315550,"Rua dos Lotos","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3228175,-45.9267166
+12315560,"Rua das Gardênias","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3221887,-45.9266948
+12315570,"Viela Rômulo Rossi","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3196332,-45.9275357
+12315580,"Rua dos Gerânios","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3144849,-45.9256821
+12315581,"Estrada Professora Olinda de Almeida Mercadante","- de 1652/1653 ao fim","Jardim Santo Antônio da Boa Vista",4595,26,-23.2987827,-45.9662542
+12315590,"Rua das Samambaias","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3151197,-45.9263384
+12315600,"Rua dos Ciprestes","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3158826,-45.9266107
+12315610,"Rua das Begônias","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3171649,-45.9272365
+12315620,"Rua dos Jacintos","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3179463,-45.9275012
+12315630,"Travessa dos Jacintos","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3183888,-45.9271604
+12315640,"Rua Íris","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3203538,-45.9277586
+12315650,"Rua das Azaléias","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3204779,-45.9289325
+12315660,"Avenida Rômulo Rossi","","Jardim Santo Antônio da Boa Vista",4595,26,-23.3182903,-45.9265456
+12316000,"Rua João de Brito","","Jardim Paraíso",4595,26,-23.3187044,-45.9372982
+12316010,"Rua Reynaldo Gonçalves Acessor","","Jardim Yolanda",4595,26,-23.3148477,-45.9400441
+12316020,"Rua Hilário Villar","","Jardim Yolanda",4595,26,-23.3136400048,-45.9754075492
+12316030,"Rua Antonieta Capelli Di Domenico","","Jardim Yolanda",4595,26,-23.2987827,-45.9662542
+12316040,"Rua Otávio Rossi","","Jardim Yolanda",4595,26,-23.3174702,-45.9416759
+12316050,"Rua Eliza Rossi Capelli","","Jardim Yolanda",4595,26,-23.2987827,-45.9662542
+12316060,"Rua João Capelli","","Jardim Yolanda",4595,26,-23.2987827,-45.9662542
+12316070,"Rua Arminda Ottoni de Almeida Rossi","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316080,"Rua Padre Bento Dias Pacheco","","Jardim Paraíso",4595,26,-23.3184429,-45.9436894
+12316090,"Rua Pedro Ribeiro Moreira","","Jardim Paraíso",4595,26,-23.316815,-45.94324
+12316100,"Rua Pedro Quina Siqueira","","Jardim Paraíso",4595,26,-23.3176279,-45.9446154
+12316110,"Rua Fidele Schiammarella","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316120,"Rua Padre Ramon Ortiz","","Jardim Paraíso",4595,26,-23.3163976,-45.9438058
+12316130,"Rua Armando Chieffi","","Jardim Paraíso",4595,26,-23.3157992,-45.944157
+12316140,"Rua Padre André Lenz","","Jardim Paraíso",4595,26,-23.315427,-45.9431978
+12316150,"Rua Doutor Carlos Carmelo Wasconcelos Mota","","Jardim Paraíso",4595,26,-23.3148122,-45.9428753
+12316160,"Rua José Milicio de Souza","","Jardim Paraíso",4595,26,-23.3138200028,-45.9563964624
+12316170,"Rua Augusto Bartolomeu Silva e Oliveira","","Jardim Paraíso",4595,26,-23.3147988,-45.9422699
+12316180,"Rua Glênio da Silva Passos Júnior","","Jardim Paraíso",4595,26,-23.3139074,-45.9412439
+12316190,"Rua Maria Augusta Ribeiro Daher","","Jardim Paraíso",4595,26,-23.3144817,-45.9416062
+12316200,"Rua José Fernandes Pinto","","Jardim Paraíso",4595,26,-23.3149103,-45.9413166
+12316210,"Rua João Gonçalves","","Jardim Paraíso",4595,26,-23.3133062,-45.9408122
+12316220,"Rua Pedro Gonçalves","","Jardim Paraíso",4595,26,-23.3132,-45.9399504
+12316230,"Rua Doutor Nelson da Costa Marrelli","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316240,"Rua Guilherme Flessati","","Jardim Paraíso",4595,26,-23.3135924,-45.9386303
+12316250,"Rua José Antônio Guedes","","Jardim Paraíso",4595,26,-23.3151249,-45.9388954
+12316260,"Rua Doutor Armando Azevedo","","Jardim Paraíso",4595,26,-23.3150315,-45.9378193
+12316270,"Rua Capitão Walter Rodrigues de Camargo","","Jardim Paraíso",4595,26,-23.3158266,-45.9388753
+12316280,"Rua Ana Bonocchi","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316290,"Rua Serafim Di Domenico","","Jardim Paraíso",4595,26,-23.3166886,-45.9374095
+12316300,"Rua Arthur Máximo","","Jardim Paraíso",4595,26,-23.3172529,-45.9366271
+12316310,"Rua Maria Amélia Gonçalves Cassal","","Jardim Paraíso",4595,26,-23.3179486,-45.9358032
+12316320,"Rua Rogério Silva","","Jardim Paraíso",4595,26,-23.3142307,-45.9373073
+12316330,"Rua Enio Ferraz de Araújo","","Jardim Paraíso",4595,26,-23.3181624,-45.9351012
+12316340,"Rua Alfio Cozzubo","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316350,"Rua João Ramos Borges de Oliveira","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316360,"Rua Augusto Paiva","","Jardim Paraíso",4595,26,-23.3178943,-45.9361277
+12316370,"Rua Farid Abid Nassif","","Jardim Paraíso",4595,26,-23.3193679,-45.9357929
+12316380,"Rua Lourenço Nogueira","","Jardim Paraíso",4595,26,-23.3190798,-45.937769
+12316390,"Rua Expedicionário Paulo Afonso de Siqueira","","Jardim Paraíso",4595,26,-23.3194818,-45.9382204
+12316400,"Rua Expedicionário Osmarino Ribeiro Alves","","Jardim Paraíso",4595,26,-23.3193649,-45.9391935
+12316420,"Rua Expedicionário Heitor Armando Bagattini","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316440,"Rua Expedicionário Joaquim Antônio Nunes","","Jardim Paraíso",4595,26,-23.3203577,-45.940774
+12316450,"Rua Expedicionário Domingos Ítalo Bruno","","Jardim Paraíso",4595,26,-23.3209079,-45.9411471
+12316460,"Rua Amazilli Ramos de Azevedo","","Jardim Paraíso",4595,26,-23.3197019,-45.9429013
+12316470,"Rua José Jordão Mercadante","","Jardim Paraíso",4595,26,-23.3197283,-45.9438541
+12316480,"Rua Lauro Salvador","","Jardim Paraíso",4595,26,-23.3192745,-45.9434721
+12316490,"Rua Michel Sayegh","","Jardim Paraíso",4595,26,-23.3200985,-45.9423115
+12316500,"Rua Antônio Sílvio Cunha Bueno","","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316510,"Rua Professor Dirceu Junqueira de Souza","","Jardim Paraíso",4595,26,-23.3209079,-45.9411471
+12316520,"Rua Lygia Cortes Lopes","","Jardim Paraíso",4595,26,-23.3208174,-45.938672
+12316530,"Rua Benedito Gomes Cruz Costa","","Jardim Paraíso",4595,26,-23.3209935,-45.9371824
+12316540,"Rua Montevideo Zonzini","","Jardim Paraíso",4595,26,-23.3218397,-45.9364387
+12316550,"Estrada Professora Olinda de Almeida Mercadante","- até 1650/1651","Jardim Paraíso",4595,26,-23.2987827,-45.9662542
+12316570,"Rua Julieta de Mancilha Passos","","Jardim Novo Amanhecer",4595,26,-23.3116072,-45.9429062
+12316575,"Rua B","","Jardim Novo Amanhecer",4595,26,-23.3103147,-45.9415344
+12316580,"Rua Helena da Silva Conceição","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12316581,"Rua Albino Raimundo Nunes","","Jardim Novo Amanhecer",4595,26,-23.3101323,-45.9417998
+12316585,"Rua Giancarlo Manetti","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12316590,"Rua Nelva Dall'Agnol","","Jardim Novo Amanhecer",4595,26,-23.3116664,-45.9423192
+12316600,"Rua Dozedino Nicolau Manja","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12316605,"Rua Thomé Bernardes de Souza","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12316610,"Rua Nilza Mazzeo Vieira","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12316615,"Rua Expedicionário Paulo de Moraes Pereira","","Jardim Novo Amanhecer",4595,26,-23.2796041,-45.9181329
+12316620,"Rua Geraldo Mathias da Silva","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12316630,"Rua Sete","","Jardim Novo Amanhecer",4595,26,-23.305,-45.9707037758
+12316635,"Avenida Claudete Gonçalves Faria de Lima","","Jardim Novo Amanhecer",4595,26,-23.2711298,-45.9340933
+12316640,"Rua Mariano Chaves","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12316645,"Rua Helena Garcia da Veiga","","Jardim Novo Amanhecer",4595,26,-23.2987827,-45.9662542
+12318000,"Avenida Alfredo Blóis","","Jardim Maria Amélia",4595,26,-23.3173678,-45.9593218
+12318002,"Avenida Romana","","Loteamento Vila Romana",4595,26,-23.3097599,-45.945877
+12318003,"Avenida Manoel Antonio do Nascimento","","Loteamento Vila Romana",4595,26,-23.3098241,-45.9456236
+12318004,"Rua Djanira Maria do Nascimento","","Loteamento Vila Romana",4595,26,-23.3092179,-45.9452695
+12318005,"Rua José Carlos Lopes Anselmo","","Loteamento Vila Romana",4595,26,-23.30978,-45.9450263
+12318006,"Rua Maria Elisabeth Anselmo Venturelli","","Loteamento Vila Romana",4595,26,-23.3104917,-45.9452825
+12318007,"Rua João Eduardo Rodrigues da Silva","","Loteamento Vila Romana",4595,26,-23.3106551,-45.9452383
+12318010,"Avenida Julião Stuer Brison","","Jardim Maria Amélia",4595,26,-23.2987827,-45.9662542
+12318015,"Rua Henrique Hasmann","","Jardim Maria Amélia",4595,26,-23.32085,-45.9574369
+12318020,"Rua Benedito Antonio Faria","","Jardim Maria Amélia",4595,26,-23.3202964,-45.9533322
+12318025,"Rua Sabino Bispo dos Santos","","Jardim Maria Amélia",4595,26,-23.3200533,-45.953575
+12318030,"Rua Dezenove","","Jardim Maria Amélia",4595,26,-23.311489,-45.956124
+12318040,"Rua José de Lima","","Jardim Maria Amélia",4595,26,-23.3192761,-45.9536456
+12318050,"Rua José Floriano de Siqueira","","Jardim Maria Amélia",4595,26,-23.3192847,-45.9546725
+12318060,"Rua Comendador Antônio Carvalho de Oliveira Lima","","Jardim Maria Amélia",4595,26,-23.2987827,-45.9662542
+12318080,"Avenida Cyro de Siqueira Armani","","Jardim Maria Amélia",4595,26,-23.3169697,-45.9590505
+12318090,"Rua Antonios Boutros","","Jardim Maria Amélia",4595,26,-23.3169752,-45.9579164
+12318100,"Avenida Oito","","Jardim Maria Amélia",4595,26,-23.3144500081,-45.9557104899
+12318110,"Rua José Benedito de Oliveira","","Jardim Maria Amélia",4595,26,-23.3191479,-45.9567719
+12318120,"Viela Dez","","Jardim Maria Amélia",4595,26,-23.3110346,-45.9431364
+12318130,"Viela Onze","","Jardim Maria Amélia",4595,26,-23.3036069,-45.9401631
+12318140,"Rua Áurea Boaventura dos Santos","","Jardim Maria Amélia",4595,26,-23.3191916,-45.9578354
+12318150,"Rua Almir José de Oliveira","","Jardim Maria Amélia",4595,26,-23.3188919,-45.9585313
+12318160,"Rua João Batista do Prado","","Jardim Maria Amélia",4595,26,-23.3184083,-45.958971
+12318170,"Rua Tenente Mário de Mattos Stock","","Jardim Maria Amélia",4595,26,-23.3180257,-45.9595267
+12318180,"Rua Ana Bernadete de Carvalho Figueira","","Jardim Maria Amélia",4595,26,-23.3145400045,-45.9556124985
+12318190,"Rua Paulo Amaro de Oliveira","","Jardim Maria Amélia",4595,26,-23.3169213,-45.9602852
+12318200,"Rua Elza Aparecida Pagano da Silva","","Jardim Maria Amélia",4595,26,-23.3151417,-45.9595328
+12318210,"Avenida Leopoldino Martins de Souza","","Jardim Maria Amélia",4595,26,-23.3151912,-45.9564955
+12318220,"Viela Quatro","","Jardim Maria Amélia",4595,26,-23.3164486,-45.9549108
+12318230,"Avenida Adelaide da Silva Bissoli","","Jardim Maria Amélia",4595,26,-23.315945,-45.957404
+12318240,"Rua Álvaro Sant'Anna","","Jardim Maria Amélia",4595,26,-23.2987827,-45.9662542
+12318260,"Rua Eunice Theodoro da Silva","","Jardim Maria Amélia",4595,26,-23.315847,-45.9563728
+12318270,"Rua Bruno Galatti","","Jardim Maria Amélia",4595,26,-23.315412,-45.9550143
+12318271,"Rua Joaquim Antonio Leite","","Jardim Maria Amélia",4595,26,-23.31329,-45.9541041
+12318280,"Rua Fábio Tullio de Mattos","","Jardim Maria Amélia",4595,26,-23.3163963,-45.9545449
+12318360,"Avenida Amâncio Dias","","Jardim das Oliveiras",4595,26,-23.3072746,-45.952679
+12318370,"Avenida Alfredo de Macedo","","Jardim das Oliveiras",4595,26,-23.3088484,-45.9517928
+12318390,"Rua Alberto Capucci","","Jardim das Oliveiras",4595,26,-23.3086457,-45.9532786
+12318400,"Rua José Rosa da Silva","","Jardim das Oliveiras",4595,26,-23.3078304,-45.9506822
+12318410,"Rua João Leite de Oliveira","","Jardim das Oliveiras",4595,26,-23.3089738,-45.9508488
+12318420,"Rua Raul Meyer","","Jardim das Oliveiras",4595,26,-23.2987827,-45.9662542
+12318430,"Rua Doutor Antônio Macrina","","Jardim das Oliveiras",4595,26,-23.310043,-45.9508848
+12318440,"Rua Hilário Rosa","(Jardim das Oliveiras)","Jardim das Oliveiras",4595,26,-23.2987827,-45.9662542
+12318460,"Avenida Joaquim Bernardino de Souza","","Vila Nova Aliança",4595,26,-23.3071441,-45.9518573
+12318470,"Rua Conceição Mourão Guimarães","","Vila Nova Aliança",4595,26,-23.2987827,-45.9662542
+12318480,"Avenida José Cândido de Faria","","Vila Nova Aliança",4595,26,-23.3076827,-45.9532617
+12318490,"Rua Lucas Mourão da Silva","","Vila Nova Aliança",4595,26,-23.2987827,-45.9662542
+12318500,"Rua Mário Bernardino de Souza","","Vila Nova Aliança",4595,26,-23.3052655,-45.9532073
+12318570,"Rua Noel Barreto","","Jardim Maria Amélia",4595,26,-23.3136725,-45.9502893
+12318571,"Estrada Professora Olinda de Almeida Mercadante","- de 1297/1298 a 1350/1351","Jardim Maria Amélia",4595,26,-23.315749,-45.9495539
+12318580,"Rua Carlo Montagna","","Jardim Maria Amélia",4595,26,-23.3130225,-45.9513859
+12318590,"Rua Benedita do Prado Moraes","","Jardim Maria Amélia",4595,26,-23.2987827,-45.9662542
+12318610,"Rua Cyro de Siqueira Armani","","Jardim Maria Amélia",4595,26,-23.3169697,-45.9590505
+12318620,"Rua Jorge Pimentel","","Jardim Maria Amélia",4595,26,-23.3182297,-45.9496628
+12318630,"Rua Anísio Martins do Prado","","Jardim Maria Amélia",4595,26,-23.3181474,-45.9509733
+12318640,"Avenida Silas Pires de Oliveira","","Jardim Maria Amélia",4595,26,-23.3162767,-45.9554144
+12318650,"Estrada Francisco Eugênio Bicudo","","Jardim Maria Amélia",4595,26,-23.3194743,-45.949678
+12318660,"Avenida Domingos Paulo Alvarenga","","Jardim Maria Amélia",4595,26,-23.3208694,-45.9495042
+12318670,"Rua Armando Amaury de Almeida Azevedo","","Jardim Maria Amélia",4595,26,-23.2987827,-45.9662542
+12318680,"Rua Amadeu Jerônimo","","Jardim Maria Amélia",4595,26,-23.3199251,-45.9517665
+12318685,"Rua Pedro de Siqueira Martins","","Jardim Maria Amélia",4595,26,-23.3161055,-45.9508975
+12318690,"Rua Augusto Rodrigues","","Jardim Maria Amélia",4595,26,-23.3182505,-45.9514021
+12319000,"Estrada Theofilo Teodoro Resende","","Jardim Colinas",4595,26,-23.3314495,-45.9660656
+12319010,"Estrada Municipal Francisco Eugênio Bicudo","","Jardim Colinas",4595,26,-23.3246839,-45.9580912
+12319015,"Estrada Arlindo Alves Vieira","","Jardim Colinas",4595,26,-23.3301688,-45.9652746
+12319020,"Rua São Basílio","","Jardim Colinas",4595,26,-23.3257332,-45.9689589
+12319030,"Rua das Lavras","","Jardim Colinas",4595,26,-23.3233944,-45.9670729
+12319040,"Rua São Camilo","","Jardim Colinas",4595,26,-23.3235432,-45.9676244
+12319050,"Avenida José Francisco da Silva","","Jardim Colinas",4595,26,-23.3245809,-45.9663328
+12319060,"Rua Avelino José Machado","","Jardim Colinas",4595,26,-23.3251867,-45.9657743
+12319080,"Rua Constitucionalista Benedicto Guedes Filho","","Jardim Colinas",4595,26,-23.2987827,-45.9662542
+12319090,"Viela Cinco","","Jardim Colinas",4595,26,-23.3222965,-45.9263934
+12319091,"Rua Geraldo Lemes Aquino","","Jardim Colinas",4595,26,-23.3231614,-45.964523
+12319100,"Avenida Plínio da Cunha Toledo","","Jardim Colinas",4595,26,-23.3246504,-45.965012
+12319110,"Rua Geraldo Lemes de Aquino","","Jardim Colinas",4595,26,-23.3231614,-45.964523
+12319120,"Rua G","","Jardim Colinas",4595,26,-23.30555,-45.96642
+12319130,"Rua São Daniel","","Jardim Colinas",4595,26,-23.3233544,-45.963945
+12319140,"Rua São Cipriano","","Jardim Colinas",4595,26,-23.3226781,-45.9627731
+12319150,"Rua Santa Rita","","Jardim Colinas",4595,26,-23.3230548,-45.9634793
+12319160,"Rua Resende","","Jardim Colinas",4595,26,-23.3218872,-45.9643791
+12319170,"Viela Resende","","Jardim Colinas",4595,26,-23.3218702,-45.9655214
+12319180,"Rua São José","","Jardim Colinas",4595,26,-23.3211486,-45.9656983
+12319330,"Rua F","","Jardim Colinas",4595,26,-23.3280856,-45.9535044
+12319340,"Avenida Benedito Oswaldo Andrade","","Jardim Olympia",4595,26,-23.3284579,-45.9547416
+12319350,"Avenida Pérsio Ferreira da Silva","","Jardim Colinas",4595,26,-23.2987827,-45.9662542
+12319360,"Rua Aristides Siqueira","","Jardim Olympia",4595,26,-23.3259059,-45.9544772
+12319361,"Rua Antonio Pereira Cobra","","Jardim Olympia",4595,26,-23.3266593,-45.9551966
+12319362,"Rua Martha Mancilha Brison","","Jardim Olympia",4595,26,-23.3268471,-45.9567499
+12319370,"Rua Afonso Silveira","","Jardim Olympia",4595,26,-23.3256235,-45.9532787
+12319371,"Rua Henrique de Araújo","","Jardim Olympia",4595,26,-23.3279655,-45.9515063
+12319380,"Avenida José Genovez","","Jardim Olympia",4595,26,-23.3244211,-45.9545735
+12319400,"Rua Heitor Peres Trevisan","","Jardim Olympia",4595,26,-23.30555,-45.96642
+12319410,"Rua Benedicta Arantes do Nascimento","","Jardim Olympia",4595,26,-23.3259976,-45.9516118
+12319420,"Rua Paulo César Giordano Guazzelli","","Jardim Olympia",4595,26,-23.2987827,-45.9662542
+12319430,"Rua Juvenal de Oliveira","","Jardim Olympia",4595,26,-23.3236257,-45.949716
+12319440,"Avenida Lafayete Benedito Briant","","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319441,"Rua Leopoldo Leite","- de 261/262 ao fim","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319442,"Rua Dois","","Jardim do Vale",4595,26,-23.3038762,-45.943218
+12319443,"Rua Três","","Jardim do Vale",4595,26,-23.2910498,-45.9470623
+12319444,"Rua Quatro","","Jardim do Vale",4595,26,-23.3037808,-45.942228
+12319445,"Rua Cinco","","Jardim do Vale",4595,26,-23.3027013,-45.9423681
+12319446,"Rua Hum","(CDHU Campo Grande)","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319447,"Praça Loriaine Quintanilha dos Santos","","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319450,"Rua Professora Maria Hamkens","","Jardim do Vale",4595,26,-23.3230516,-45.9685991
+12319460,"Rua Otávio Landim Cassal","","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319470,"Rua Jorge Mega","","Jardim do Vale",4595,26,-23.3233002,-45.9698447
+12319480,"Avenida Susana de Castro Ramos","","Jardim do Vale",4595,26,-23.3227445,-45.972088
+12319490,"Avenida Sebastião de Oliveira Goda","","Jardim do Vale",4595,26,-23.3235869,-45.9703488
+12319491,"Praça Lidiane Piagentini Maria","","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319500,"Rua Eliza de Campos Pires","","Jardim do Vale",4595,26,-23.3235447,-45.9711257
+12319510,"Avenida Gilberto Marcelino","","Jardim do Vale",4595,26,-23.3243865,-45.9712181
+12319530,"Avenida Jurandir Fonsi","","Jardim do Vale",4595,26,-23.3271209,-45.9717535
+12319540,"Rua Neif Ismael Rachid","","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319550,"Rua Expedicionário João Theodoro","","Jardim do Vale",4595,26,-23.3257029,-45.9709423
+12319560,"Rua Antônio Carlos Piovesan","","Jardim do Vale",4595,26,-23.3269016,-45.9729626
+12319570,"Avenida Jesus Romero","","Jardim do Vale",4595,26,-23.2987827,-45.9662542
+12319580,"Rua Raul Ale","","Jardim do Vale",4595,26,-23.3251379,-45.9728291
+12319590,"Rua Domingos Reis Piovesan","","Jardim do Vale",4595,26,-23.3258182,-45.9738048
+12319610,"Rua Benedicto Garcia de Melo","","Jardim do Vale",4595,26,-23.3245242,-45.9747829
+12319620,"Rua Filomena Giordano Monteiro","","Jardim do Vale",4595,26,-23.3232217,-45.9743133
+12319630,"Avenida Professora Zilah Mercadante Catão Bastos","","Jardim do Vale",4595,26,-23.315440007,-45.9773674566
+12319640,"Rua Ismael de Mello","","Jardim do Vale",4595,26,-23.3240601,-45.9736707
+12319650,"Rua Virgílio da Costa Pimentel","","Jardim do Vale",4595,26,-23.3245808,-45.9718007
+12319660,"Rua Rosa de Souza Martins","","Jardim do Vale",4595,26,-23.3237948,-45.972391
+12319661,"Praça Ocimar Antônio Ferreira","","Jardim do Vale",4595,26,-23.2999599991,-45.966
+12319670,"Avenida Vicência Batista da Silva","","Jardim do Vale",4595,26,-23.3261273,-45.9742958
+12320010,"Avenida Moriaki Ueno","","Cidade Jardim",4595,26,-23.3151367,-45.9707291
+12320020,"Ladeira do Paraíba","","Cidade Jardim",4595,26,-23.3081979,-45.9764384
+12320030,"Rua Terêncio Costa","","Cidade Jardim",4595,26,-23.3090307,-45.9764858
+12320040,"Alameda dos Pinheiros","","Cidade Jardim",4595,26,-23.309325,-45.9746148
+12320050,"Alameda das Tipuanas","","Jardim Beira Rio",4595,26,-23.3095018,-45.9740764
+12320060,"Praça Flamboyant","","Cidade Jardim",4595,26,-23.2987827,-45.9662542
+12320070,"Alameda dos Jacarandás","","Cidade Jardim",4595,26,-23.3100102,-45.9745022
+12320080,"Rua Arnaldo Lopes Leal","","Cidade Jardim",4595,26,-23.3111711,-45.9739624
+12320090,"Rua Benjamim Arice","","Cidade Jardim",4595,26,-23.3114814,-45.9734707
+12320100,"Rua João de Almeida Caldas","","Cidade Jardim",4595,26,-23.3125224,-45.9727543
+12320110,"Rua Ildefonso Salgado Neto","","Cidade Jardim",4595,26,-23.3129294,-45.9723928
+12320120,"Rua Ambrósio Roque","","Cidade Jardim",4595,26,-23.3131469,-45.9717886
+12320130,"Rua Asman José Nader","","Cidade Jardim",4595,26,-23.2987827,-45.9662542
+12320140,"Rua Bertioga","","Cidade Jardim",4595,26,-23.3193677,-45.9722187
+12320150,"Rua Punta Del Este","","Cidade Jardim",4595,26,-23.3181956,-45.9715463
+12320160,"Rua Cannes","","Cidade Jardim",4595,26,-23.2987827,-45.9662542
+12320170,"Rua Viareggio","","Cidade Jardim",4595,26,-23.3175697,-45.9725283
+12320180,"Rua Danúbio","","Cidade Jardim",4595,26,-23.3149708,-45.9705184
+12320190,"Rua Helgoland","","Cidade Jardim",4595,26,-23.3168588,-45.9739285
+12320200,"Rua Geralda Tavares de Campos","","Cidade Jardim",4595,26,-23.3161393,-45.9728305
+12320210,"Rua Pedro Vergueiro","","Cidade Jardim",4595,26,-23.3152136,-45.9717373
+12320220,"Rua Frederico Lencione","","Cidade Jardim",4595,26,-23.3159794,-45.9735246
+12320230,"Rua Geraldo Braga","","Cidade Jardim",4595,26,-23.3151906,-45.9734377
+12320240,"Rua Gusmão Nogueira Porto","","Cidade Jardim",4595,26,-23.3142673,-45.9723021
+12320250,"Rua Euclides Queiroz","","Cidade Jardim",4595,26,-23.3150641,-45.9741872
+12320260,"Rua Abrão Roismann","","Cidade Jardim",4595,26,-23.3160342,-45.9753942
+12320270,"Rua Roberto Martins","","Cidade Jardim",4595,26,-23.3156378,-45.9757988
+12320280,"Rua Manoel Gonçalves Acessor","","Cidade Jardim",4595,26,-23.3143523,-45.9742033
+12320290,"Rua Sebastião Miranda","","Cidade Jardim",4595,26,-23.3152354,-45.9761747
+12320300,"Rua José Perretti Primo","","Cidade Jardim",4595,26,-23.3143356,-45.9750593
+12320310,"Rua Simone Laurino","","Cidade Jardim",4595,26,-23.3136829,-45.9731115
+12320330,"Avenida Nicola Capucci","","Cidade Jardim",4595,26,-23.3119487,-45.9771751
+12320340,"Rua Elpídio Dantas","","Cidade Jardim",4595,26,-23.311887,-45.9766421
+12320350,"Rua Capitão Geraldo Siqueira da Silva","","Cidade Jardim",4595,26,-23.3122559,-45.9761937
+12320360,"Rua Paulo Moraes","","Cidade Jardim",4595,26,-23.3130987,-45.977223
+12320370,"Rua Alice de Souza Cappelli","","Cidade Jardim",4595,26,-23.2987827,-45.9662542
+12320380,"Rua Clóvis Navarro da Cruz","","Cidade Jardim",4595,26,-23.3126012,-45.975726
+12320400,"Rua Geraldo de Nogueira Macedo","","Cidade Jardim",4595,26,-23.3138812,-45.9764403
+12320410,"Avenida Carlos Frederico Werneck Lacerda","","Cidade Jardim",4595,26,-23.3146293,-45.9762775
+12320420,"Rua Rafaelle Sciammarella","","Cidade Jardim",4595,26,-23.3143298,-45.9774517
+12320430,"Rua Abel Rodrigues de Souza","","Cidade Jardim",4595,26,-23.3144693,-45.978102
+12320440,"Rua Acib Elias de Moraes","","Cidade Jardim",4595,26,-23.2987827,-45.9662542
+12320450,"Rua Abdo Daher","","Cidade Jardim",4595,26,-23.3161244,-45.977316
+12320460,"Rua José Coutinho de Oliveira","","Cidade Jardim",4595,26,-23.3151843,-45.9782135
+12320470,"Rua Giovani Battista Schiamarella","","Cidade Jardim",4595,26,-23.3155922,-45.9786221
+12320480,"Rua Henrique de Macedo","","Cidade Jardim",4595,26,-23.3164896,-45.9778005
+12320490,"Rua Manoel José de Castro Júnior","","Cidade Jardim",4595,26,-23.3168579,-45.9781791
+12320500,"Rua João Domingos Lencioni","","Cidade Jardim",4595,26,-23.3160193,-45.9789929
+12320510,"Rua Lucinda Leite de Siqueira","","Cidade Jardim",4595,26,-23.3171858,-45.9786295
+12320520,"Rua Maria José Pereira Lencioni","","Cidade Jardim",4595,26,-23.3164388,-45.9793668
+12320530,"Rua José Micheletti","","Cidade Jardim",4595,26,-23.2987827,-45.9662542
+12320540,"Rua Maria Eugênia Neves Marino","","Cidade Jardim",4595,26,-23.3160569,-45.9797188
+12320550,"Travessa São Vicente de Paulo","","Jardim Panorama",4595,26,-23.3184199,-45.9821033
+12320570,"Rua São Pedro","","Jardim Didinha",4595,26,-23.316815,-45.9817008
+12320580,"Rua Santa Isabel","","Jardim Didinha",4595,26,-23.3158015,-45.9799951
+12320590,"Praça Teotônio Vilela","","Jardim Didinha",4595,26,-23.3154307,-45.9820491
+12320600,"Rua São Paulo","","Jardim Didinha",4595,26,-23.3156888,-45.9817589
+12320610,"Rua Santana","","Jardim Didinha",4595,26,-23.3151391,-45.9815439
+12320620,"Rua Santa Maria","","Jardim Didinha",4595,26,-23.3146027,-45.9812883
+12320630,"Rua Santo Antônio","","Jardim Didinha",4595,26,-23.3142165,-45.9808804
+12320640,"Rua São Luiz","","Jardim Didinha",4595,26,-23.3137274,-45.9805658
+12320650,"Rua São Miguel","","Jardim Didinha",4595,26,-23.3130172,-45.9805396
+12320660,"Rua São Benedito","","Jardim Didinha",4595,26,-23.3125189,-45.9802532
+12320670,"Avenida Pereira Campos","","Jardim Didinha",4595,26,-23.3130172,-45.9805396
+12320680,"Rua Padre Leonardo de Campos","","Jardim Didinha",4595,26,-23.3107689,-45.9803512
+12321010,"Rua Uruguai","","Jardim Siesta",4595,26,-23.3041084,-45.9828647
+12321020,"Avenida Estados Unidos","","Jardim Siesta",4595,26,-23.3162500078,-45.966
+12321030,"Rua França","","Jardim Siesta",4595,26,-23.3033263,-45.982457
+12321040,"Rua Missouri","","Jardim Flórida",4595,26,-23.3042114,-45.9798104
+12321050,"Avenida Pensylvania","","Jardim Flórida",4595,26,-23.3023603,-45.9823937
+12321060,"Avenida Brasil","","Jardim Siesta",4595,26,-23.3034105,-45.98388
+12321070,"Praça Portugal","","Jardim Siesta",4595,26,-23.2987827,-45.9662542
+12321080,"Praça México","","Jardim Siesta",4595,26,-23.3034136,-45.9839654
+12321090,"Rua Itália","","Jardim Siesta",4595,26,-23.3037023,-45.9850697
+12321100,"Rua Inglaterra","","Jardim Siesta",4595,26,-23.3030716,-45.9843671
+12321110,"Rua Argentina","","Jardim Siesta",4595,26,-23.3028926,-45.9848881
+12321120,"Rua Chile","","Jardim Siesta",4595,26,-23.3020179,-45.9841915
+12321130,"Rua Hungria","","Jardim Siesta",4595,26,-23.3026542,-45.9853965
+12321140,"Rua Peru","","Jardim Siesta",4595,26,-23.3022907,-45.9866493
+12321150,"Avenida Presidente Humberto de Alencar Castelo Branco","- lado ímpar","Conjunto Habitacional Marinho",4595,26,-23.2849928,-45.9793598
+12321160,"Rua Eduardo José Diniz","","Conjunto Habitacional Marinho",4595,26,-23.2996867,-45.987153
+12321170,"Praça Chico Mendes","","Conjunto Habitacional Marinho",4595,26,-23.2968366,-45.9829788
+12321180,"Rua Luiz Aurélio Teixeira Vasquez","","Conjunto Habitacional Marinho",4595,26,-23.2968366,-45.9829788
+12321190,"Rua Júlio Ferreira","","Conjunto Habitacional Marinho",4595,26,-23.2996168,-45.9863004
+12321200,"Rua José Porto","","Conjunto Habitacional Marinho",4595,26,-23.2990958,-45.9874005
+12321210,"Rua José Mega","","Vila Machado",4595,26,-23.2981228,-45.986023
+12321220,"Rua Natiuz Moyses","","Vila Machado",4595,26,-23.297702,-45.9854413
+12321230,"Rua Abrão Esper","","Vila Machado",4595,26,-23.2973873,-45.9851293
+12321240,"Rua Salim Daher","","Vila Machado",4595,26,-23.2977547,-45.9856019
+12321250,"Rua Paschoal de Oliveira Dias","","Jardim Emília",4595,26,-23.2957249,-45.9876401
+12321300,"Rua Odilon Augusto de Siqueira","","Jardim Emília",4595,26,-23.29477,-45.988199
+12321310,"Rua Professor Hélio Augusto de Souza","","Jardim Emília",4595,26,-23.296561,-45.9921709
+12321311,"Avenida Professor Joaquim Passos e Silva","","Vila Ita",4595,26,-23.2960164,-45.9899054
+12321312,"Rua João Brandão","","Vila Ita",4595,26,-23.2960164,-45.9899054
+12321313,"Rua Tarcísio Pelogia","","Vila Ita",4595,26,-23.2963258,-45.9914706
+12321314,"Rua Luzia Machado Saldão","","Vila Ita",4595,26,-23.2960164,-45.9899054
+12321315,"Rua Faustino de Oliveira Saldão","","Vila Ita",4595,26,-23.2961761,-45.9900264
+12321316,"Rua Adílio Fereira Pinto","","Vila Ita",4595,26,-23.2965344,-45.9894042
+12321317,"Rua Maria Barrios Madolen","","Vila Ita",4595,26,-23.2960164,-45.9899054
+12321320,"Rua José Leite Machado","","Jardim Emília",4595,26,-23.2987827,-45.9662542
+12321330,"Rua José Alves de Souza","","Jardim Emília",4595,26,-23.2987827,-45.9662542
+12321340,"Rua Orlandina de Lima Maciel","","Jardim Emília",4595,26,-23.2946857,-45.991426
+12321350,"Rua Francisco Miragaia Lemes","","Jardim Emília",4595,26,-23.2948576,-45.9908227
+12321360,"Rua Anne Marie Andrewr","","Jardim Emília",4595,26,-23.2987827,-45.9662542
+12321370,"Rua Afonso Cabral de Sena","","Jardim Emília",4595,26,-23.2948782,-45.9896591
+12321380,"Rua Expedicionário José Pereira da Silva","","Jardim Emília",4595,26,-23.2948957,-45.9890975
+12321390,"Rua Miguel Francisco","","Jardim Emília",4595,26,-23.294448,-45.9885032
+12321400,"Rua Antônio Martins Carvalho","","Jardim Emília",4595,26,-23.2950582,-45.9882148
+12321410,"Rua Projetada P","","Jardim Emília",4595,26,-23.2946772,-45.9917337
+12321420,"Avenida Amaury Teixeira Vasquez","","Jardim Emília",4595,26,-23.2940948,-45.989082
+12321430,"Rua Maria José Siqueira Egídio de Carvalho","","Jardim Emília",4595,26,-23.2987827,-45.9662542
+12321440,"Rua Antenor Nascimento Pereira","","Jardim Emília",4595,26,-23.2949223,-45.9873126
+12321450,"Rua Yousef Ibraim El K Raad","","Jardim Emília",4595,26,-23.2987827,-45.9662542
+12321460,"Rua Professor Boris Grimberg","","Jardim Emília",4595,26,-23.2949305,-45.9861361
+12321470,"Rua Francisco Gomes da Silva","","Jardim Emília",4595,26,-23.2949406,-45.9855695
+12321480,"Avenida Benedita Martins Siqueira","","Jardim Emília",4595,26,-23.2945567,-45.9849364
+12321490,"Rua Leonardo Gonçalves Caramuru","","Jardim Emília",4595,26,-23.2962431,-45.9844323
+12321500,"Avenida Industrial","","Jardim Emília",4595,26,-23.2921414,-45.9903822
+12321510,"Rua Rodolfo Anselmo","","Jardim Emília",4595,26,-23.2872194,-45.9831837
+12321520,"Rodovia Presidente Dutra","","Jardim Emília",4595,26,-23.26658,-45.96093
+12321551,"Rua Arthur Aragão Domingues Caetano","","Jardim Terras da Conceição",4595,26,-23.2987827,-45.9662542
+12321552,"Rua José Vicente dos Santos","","Jardim Terras da Conceição",4595,26,-23.2987827,-45.9662542
+12321553,"Rua Alice Ribeiro dos Santos","","Jardim Terras da Conceição",4595,26,-23.2987827,-45.9662542
+12321554,"Rua Maria Justina de Macedo","","Jardim Terras da Conceição",4595,26,-23.2987827,-45.9662542
+12321555,"Rua Luiz Cláudio Ferreira","","Jardim Terras da Conceição",4595,26,-23.2987827,-45.9662542
+12321556,"Rua Jayme Ferreira Marques Neto","","Jardim Terras da Conceição",4595,26,-23.2987827,-45.9662542
+12321557,"Rua Direitos Humanos","","Jardim Terras da Conceição",4595,26,-23.2934759,-45.9863949
+12321564,"Rua Octávio Bento de Almeida","","Jardim Terras da Conceição",4595,26,-23.2987827,-45.9662542
+12321630,"Avenida Mississipi","","Jardim Flórida",4595,26,-23.300706,-45.9787954
+12321635,"Rua Hawaí","","Jardim Flórida",4595,26,-23.2993479,-45.9818805
+12321640,"Rua Idaho","","Jardim Flórida",4595,26,-23.2966384,-45.9814415
+12321645,"Avenida Presidente Humberto de Alencar Castelo Branco","- lado par","Jardim Flórida",4595,26,-23.2906024,-45.9799721
+12321650,"Rua Kansas","","Jardim Flórida",4595,26,-23.2973141,-45.9818213
+12321660,"Rua Montana","","Jardim Flórida",4595,26,-23.305,-45.9789353776
+12321670,"Praça Presidente Kennedy","","Jardim Flórida",4595,26,-23.3009758,-45.9820472
+12321680,"Rua Oregon","","Jardim Flórida",4595,26,-23.2979002,-45.9822464
+12321690,"Rua New Jersey","","Jardim Flórida",4595,26,-23.2986333,-45.9821172
+12321700,"Rua Alaska","","Jardim Flórida",4595,26,-23.2999552,-45.982299
+12321710,"Rua Virgínia","","Jardim Flórida",4595,26,-23.3007343,-45.9812468
+12321720,"Rua Utah","","Jardim Flórida",4595,26,-23.3005583,-45.9824814
+12321730,"Rua Nebraska","","Jardim Flórida",4595,26,-23.2996516,-45.9820897
+12321740,"Rua Colorado","","Jardim Flórida",4595,26,-23.3014626,-45.9811944
+12321750,"Rua Geórgia","","Jardim Flórida",4595,26,-23.3016495,-45.9801319
+12321760,"Rua Maine","","Jardim Flórida",4595,26,-23.302243,-45.9805097
+12321770,"Rua Texas","","Jardim Flórida",4595,26,-23.3023781,-45.9808722
+12321780,"Rua Vermont","","Jardim Flórida",4595,26,-23.3033818,-45.9803072
+12321790,"Rua Arkansas","","Jardim Flórida",4595,26,-23.3024961,-45.9794127
+12321800,"Rua Chiquinha Schurig","","Jardim Marister",4595,26,-23.3065648,-45.9784783
+12321810,"Praça Soldado Constitucionalista","","Jardim Marister",4595,26,-23.3050573,-45.9792206
+12321820,"Avenida Japão","","Jardim Marister",4595,26,-23.3056062,-45.9797644
+12321830,"Rua Rotary Club","","Jardim Marister",4595,26,-23.3063715,-45.9802595
+12321835,"Rua Lions Club","","Jardim Marister",4595,26,-23.3060438,-45.9792494
+12321840,"Rua Paschoal Viola","","Jardim Marister",4595,26,-23.3064506,-45.979201
+12321900,"Avenida Presidente Humberto de Alencar Castelo Branco, s/n","","Jardim Flórida",4595,26,-23.2987827,-45.9662542
+12321901,"Avenida Presidente Humberto de Alencar Castelo Branco 3200","","Rio Abaixo",4595,26,-23.2146758,-46.0047694
+12321902,"Rodovia Presidente Dutra, s/n","","Jardim Emília",4595,26,-23.2987827,-45.9662542
+12322000,"Avenida São João","","São João",4595,26,-23.3089675,-45.9775138
+12322010,"Rua Padre Juca","","São João",4595,26,-23.3120891,-45.9822989
+12322020,"Rua Flávio Fogaça de Almeida Júnior","","Jardim América",4595,26,-23.2987827,-45.9662542
+12322030,"Rua Antônio Fogaça de Almeida","","Jardim América",4595,26,-23.316642,-45.9843826
+12322040,"Rua Professora Irene de Camargo Penteado Faria","","Jardim América",4595,26,-23.3178267,-45.9834613
+12322050,"Avenida Edmundo de Souza","","Jardim América",4595,26,-23.3145767,-45.9855736
+12322060,"Rua Doutor Flauzino Barbosa Sandoval","","Jardim América",4595,26,-23.2987827,-45.9662542
+12322070,"Rua Coronel Joaquim Fogaça de Almeida","","Jardim América",4595,26,-23.3157465,-45.9846422
+12322080,"Rua Cincinato Fogaça de Almeida","","Jardim América",4595,26,-23.3154582,-45.9852641
+12322090,"Rua Alzira Pires de Moraes","","Jardim América",4595,26,-23.3157562,-45.9861908
+12322110,"Rua Maria Aparecida Stok de Moraes","","Jardim América",4595,26,-23.31373,-45.9839689
+12322120,"Rua Antônio Ferreira Rizzini","","Jardim Elza Maria",4595,26,-23.2987827,-45.9662542
+12322121,"Rua Maércio Fernandes","","Jardim Elza Maria",4595,26,-23.2987827,-45.9662542
+12322130,"Rua Alencar Mazzeo","","Jardim Elza Maria",4595,26,-23.2987827,-45.9662542
+12322140,"Rua José Carvalho de Godoy","","Jardim Elza Maria",4595,26,-23.2927599931,-45.9793273616
+12322150,"Rua Ivone Lucia Guarnieri Stock","","Jardim Elza Maria",4595,26,-23.3147901,-45.9876815
+12322260,"Rua João Pinto Cepinho","","Residencial São Paulo",4595,26,-23.3121942,-45.9846929
+12322270,"Rua Francisco Arantes Cepinho","","Residencial São Paulo",4595,26,-23.3123802,-45.9852645
+12322280,"Rua Ale Mohamed Ahmed","","Residencial São Paulo",4595,26,-23.3117928,-45.9857035
+12322310,"Avenida Santa Cruz dos Lázaros","","Santa Cruz dos Lázaros",4595,26,-23.3106189,-45.9913986
+12322320,"Rua Luciano de Toledo","","Santa Cruz dos Lázaros",4595,26,-23.3119992,-45.9919632
+12322330,"Rua João Atílio Ferrarini","","Santa Cruz dos Lázaros",4595,26,-23.2987827,-45.9662542
+12322340,"Rua Waldomiro Dantas Cortez","","Santa Cruz dos Lázaros",4595,26,-23.3121838,-45.9926181
+12322350,"Rua Getúlio Camargo","","Santa Cruz dos Lázaros",4595,26,-23.3126012,-45.9921416
+12322360,"Rua Projetada","","Santa Cruz dos Lázaros",4595,26,-23.3098324,-45.9905514
+12322370,"Rua Duarte da Costa","","Santa Cruz dos Lázaros",4595,26,-23.3092103,-45.9880762
+12322380,"Travessa José de Souza Lima","","Santa Cruz dos Lázaros",4595,26,-23.3092655,-45.9888927
+12322390,"Rua Mem de Sá","","Santa Cruz dos Lázaros",4595,26,-23.3092392,-45.9883722
+12322400,"Rua Manoel da Nóbrega","","Santa Cruz dos Lázaros",4595,26,-23.3091813,-45.9877798
+12322410,"Rua Tomé Souza","","Santa Cruz dos Lázaros",4595,26,-23.3091176,-45.9871448
+12322420,"Rua Benedito Antônio Bueno","","Santa Cruz dos Lázaros",4595,26,-23.3110926,-45.9893161
+12322430,"Rua José Abrahão","","São João",4595,26,-23.3116104,-45.9884816
+12322440,"Rua Marco Mehler","","São João",4595,26,-23.3109149,-45.9878767
+12322450,"Rua Américo Brasiliense","","São João",4595,26,-23.3105033,-45.9855029
+12322460,"Rua Vereador Antônio Passos Fernandes","","São João",4595,26,-23.3090849,-45.9856296
+12322470,"Rua Almirante Tamandaré","","São João",4595,26,-23.3103741,-45.9847857
+12322480,"Rua Duque de Caxias","","São João",4595,26,-23.3113349,-45.9843806
+12322490,"Rua José Bonifácio de Mattos","","São João",4595,26,-23.3110962,-45.9837171
+12322500,"Rua General Osório","","São João",4595,26,-23.3116958,-45.9834571
+12322510,"Rua Marechal Deodoro","","São João",4595,26,-23.3107988,-45.9828827
+12322520,"Rua José de Moraes","","São João",4595,26,-23.3107988,-45.9828827
+12322530,"Rua Professora Alcina de Moraes Salles","","São João",4595,26,-23.3101283,-45.9823125
+12322540,"Rua Jaime de Moraes","","São João",4595,26,-23.3098943,-45.9816032
+12322560,"Travessa Íris Marques Pelodan","","São João",4595,26,-23.3110568,-45.9830606
+12322570,"Praça Independência","","São João",4595,26,-23.3093485,-45.9769061
+12322580,"Rua Georg Francis Northrup","","Jardim Independência",4595,26,-23.3087026,-45.978302
+12322590,"Rua Luiz Dias Serrano","","Jardim Independência",4595,26,-23.3085477,-45.9789601
+12322600,"Rua Virgílio Carderelli","","Jardim Independência",4595,26,-23.3081622,-45.9794055
+12322610,"Rua Octaviano Câmara","","Jardim Independência",4595,26,-23.3086046,-45.9795165
+12322620,"Rua Professor Pedroso","","Jardim Independência",4595,26,-23.3072225,-45.9790792
+12322630,"Rua Professora Celisa Mercadante Faria","","Jardim Independência",4595,26,-23.2987827,-45.9662542
+12322640,"Rua Venceslau Brás","","Jardim Jacinto",4595,26,-23.3074409,-45.9806557
+12322650,"Rua Arthur da Costa e Silva","","Jardim Jacinto",4595,26,-23.3080438,-45.9817764
+12322660,"Rua Nilo Peçanha","","Jardim Jacinto",4595,26,-23.3074097,-45.9819945
+12322670,"Rua Café Filho","","Jardim Jacinto",4595,26,-23.2987827,-45.9662542
+12322680,"Rua Chanceler San'Tiago Dantas","","Jardim Jacinto",4595,26,-23.2987827,-45.9662542
+12322700,"Rua Afonso Pena","","Jardim Jacinto",4595,26,-23.306525,-45.9826637
+12322710,"Rua Epitácio Pessoa","","Jardim Jacinto",4595,26,-23.3057559,-45.9825527
+12322720,"Rua João Goulart","","Jardim Jacinto",4595,26,-23.2987827,-45.9662542
+12322730,"Rua Arthur Bernardes","","Jardim Jacinto",4595,26,-23.3053852,-45.9819234
+12322740,"Rua Hermes da Fonseca","","Jardim Jacinto",4595,26,-23.3055579,-45.9833489
+12322750,"Rua Auro de Moura Andrade","","Jardim Jacinto",4595,26,-23.3049983,-45.9846285
+12322760,"Rua Rodrigues Alves","","Jardim Jacinto",4595,26,-23.3061697,-45.9831209
+12322770,"Rua Eurico Gaspar Dutra","","Jardim Jacinto",4595,26,-23.3044322,-45.9835831
+12322780,"Praça Tancredo Neves","","Jardim Jacinto",4595,26,-23.2987827,-45.9662542
+12322970,"Avenida São João 183","","São João",4595,26,-23.309403,-45.9805154
+12322971,"Avenida Maria Augusta Fagundes Gomes 795","","Residencial São Paulo",4595,26,-23.2987827,-45.9662542
+12323010,"Rua Ignácio Pinheiro","","Jardim Vista Verde",4595,26,-23.3177032,-45.9795616
+12323015,"Estrada Galdino Teodoro de Rezende","- até 765 - lado ímpar","Jardim Vista Verde",4595,26,-23.2987827,-45.9662542
+12323020,"Estrada Galdino Teodoro de Rezende","","Estância Porto Velho",4595,26,-23.3260838,-45.9854413
+12323030,"Avenida Projetada","","Estância Porto Velho",4595,26,-23.3098324,-45.9905514
+12323040,"Estrada dos Dourados","","Estância Porto Velho",4595,26,-23.3260838,-45.9854413
+12323050,"Estrada dos Bosques","","Estância Porto Velho",4595,26,-23.3257336,-45.9806104
+12323060,"Estrada Pouso Alto","","Estância Porto Velho",4595,26,-23.3276283,-45.9838643
+12323070,"Estrada dos Canários","","Estância Porto Velho",4595,26,-23.3278816,-45.9868152
+12323080,"Estrada Retiro Alegre","","Estância Porto Velho",4595,26,-23.3267069,-45.9811936
+12323090,"Estrada da Invernada","","Estância Porto Velho",4595,26,-23.305,-45.9518886765
+12323100,"Estrada dos Pintassilgos","","Estância Porto Velho",4595,26,-23.3260838,-45.9854413
+12323110,"Estrada dos Paturis","","Estância Porto Velho",4595,26,-23.3244281,-45.9839231
+12323120,"Rua do Lago","","Jardim Panorama",4595,26,-23.3230201,-45.9849183
+12323130,"Rua Serra Negra","","Jardim Panorama",4595,26,-23.3221153,-45.9853514
+12323140,"Rua Novo Horizonte","","Jardim Panorama",4595,26,-23.3207155,-45.9842536
+12323150,"Rua Tupi","","Jardim Panorama",4595,26,-23.3200067,-45.9823082
+12323160,"Rua da Colina","","Jardim Panorama",4595,26,-23.3205307,-45.9816593
+12323170,"Rua Bom Recanto","","Jardim Panorama",4595,26,-23.3206093,-45.980464
+12323180,"Rua Panorama","","Jardim Panorama",4595,26,-23.3196943,-45.9810347
+12323190,"Rua Alvorada","","Jardim Panorama",4595,26,-23.3191145,-45.9814421
+12323200,"Rua Oriente","","Jardim Panorama",4595,26,-23.3183738,-45.9806465
+12323210,"Rua do Sol Nascente","","Jardim Panorama",4595,26,-23.319514,-45.9806681
+12323220,"Rua do Planalto","","Jardim Panorama",4595,26,-23.3197471,-45.9802428
+12323229,"Estrada Galdino Teodoro de Rezende","- até 766 - lado par","Jardim Panorama",4595,26,-23.2987827,-45.9662542
+12323230,"Rua Bela Vista","","Jardim Panorama",4595,26,-23.3199645,-45.9788416
+12323240,"Rua Virgilio Borati Junior","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323241,"Rua Elizena Pôrto Chaves","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323242,"Rua Antônio Ovídio Machado","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323243,"Rua João Gonçalves Accessor","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323244,"Rua Sargento Gil Marcelino","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323245,"Rua Luan Marcelino Junho de Souza","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323246,"Rua Osmarina dos Santos Panhalver","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323247,"Praça Samuel Gonzaga de Mancilha","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323248,"Rua Alcides Pinto de Oliveira","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323249,"Rua Manoel Cubas de Morais","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323250,"Rua Targino Emygdio dos Santos","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323251,"Rua Sacaguti Nobor","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323252,"Rua Avelino Alves","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323258,"Rua Orlando de Oliveira Rosa","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323259,"Rua Acadêmica Maria Nilce Lencioni Senne","","Condomínio Residencial Fogaça",4595,26,-23.2987827,-45.9662542
+12323361,"Rua Paulo Henrique de Oliveira","","Bandeira Branca",4595,26,-23.335442,-46.001042
+12323362,"Rua Doutora Thalita Monique Toledo Soares de Morais","","Bandeira Branca",4595,26,-23.3361204,-46.0009788
+12323363,"Rua Mauro Matheus Moreira Nascimento Silva","","Bandeira Branca",4595,26,-23.336478,-45.9996131
+12323364,"Rua Marina de Paula Costa","","Bandeira Branca",4595,26,-23.3368129,-46.0007494
+12323370,"Rua Luiz Gonzaga Rosa da Silva","","Bandeira Branca",4595,26,-23.3272844,-45.9953913
+12323380,"Rua Raphael José Ribeiro","","Bandeira Branca",4595,26,-23.3244096,-45.9918113
+12323390,"Rua Fidêncio José de Souza","","Bandeira Branca",4595,26,-23.3234974,-45.9922969
+12323400,"Rua Sargento Felício Alves de Araújo","","Bandeira Branca",4595,26,-23.3253304,-45.993328
+12323410,"Rua Paulo Vicente da Silva","","Bandeira Branca",4595,26,-23.325712,-45.9940122
+12323420,"Rua Benedito Soares de Moraes","","Bandeira Branca",4595,26,-23.315867,-46.0152756
+12323440,"Rua Antônio Soares Brandão Filho","","Bandeira Branca",4595,26,-23.3280265,-45.9957729
+12323450,"Rua Odila Nogueira Moreira","","Bandeira Branca",4595,26,-23.3294193,-45.9963647
+12323460,"Rua José Carlos Galvão","","Bandeira Branca",4595,26,-23.3294193,-45.9963647
+12323470,"Rua Oswaldo Tursi","","Bandeira Branca",4595,26,-23.3283393,-45.9964362
+12323472,"Rua Renato Turci","","Bandeira Branca",4595,26,-23.3253304,-45.993328
+12323480,"Rua Nelson Ramalho","","Bandeira Branca",4595,26,-23.3253304,-45.993328
+12323490,"Rua Abílio Pinto Pereira","","Bandeira Branca",4595,26,-23.3304635,-45.9963334
+12323610,"Rua Rosaria Maria da Conceição","","Bandeira Branca",4595,26,-23.3318718,-45.9970213
+12323620,"Rua Joaquim Simões Pires","","Bandeira Branca",4595,26,-23.3319346,-45.9986836
+12323630,"Rua Chafic Mogames","","Bandeira Branca",4595,26,-23.3324198,-45.9979736
+12323640,"Rua Israel Albino","","Bandeira Branca",4595,26,-23.3330148,-45.9976501
+12323650,"Rua Manoel Guardia Ruiz","","Bandeira Branca",4595,26,-23.3353197,-45.9977471
+12323660,"Rua Innocêncio Teodoro de Siqueira","","Bandeira Branca",4595,26,-23.3253304,-45.993328
+12323670,"Rua Bolívar Darcy de Moraes","","Bandeira Branca",4595,26,-23.3352962,-45.9985489
+12323680,"Rua Mário Siqueira Cardoso","","Bandeira Branca",4595,26,-23.3253304,-45.993328
+12323690,"Rua Edis Rigo","","Bandeira Branca",4595,26,-23.3360624,-45.9988677
+12323700,"Estrada Fazenda Ivone","","Bandeira Branca",4595,26,-23.3366879,-46.0112033
+12323710,"Estrada Municipal Bom Jesus","","Bandeira Branca",4595,26,-23.3360047,-45.9939461
+12323720,"Rodovia General Euryale de Jesus Zerbine","- até 2999/3000","Bandeira Branca",4595,26,-23.3253304,-45.993328
+12324000,"Avenida Lucas Nogueira Garcez","- até 1659/1660","Jardim Esperança",4595,26,-23.2987827,-45.9662542
+12324010,"Rua Humberto Peloggia","","Jardim São Luiz",4595,26,-23.3088473,-46.0006046
+12324020,"Avenida Wilson Nogueira Soares","","Jardim São Luiz",4595,26,-23.2987827,-45.9662542
+12324021,"Rua Rubens Bento de Moura","","Jardim São Luiz",4595,26,-23.2987827,-45.9662542
+12324030,"Rua Edmundo Pereira","","Jardim São Luiz",4595,26,-23.3136722,-45.9972489
+12324031,"Rua José Natalino Pelogia","","Jardim São Luiz",4595,26,-23.2987827,-45.9662542
+12324040,"Rua Rolando Lippi","","Jardim São Luiz",4595,26,-23.314117,-45.9975792
+12324050,"Rua Maria Luiza de Souza Pinto Vasques","","Jardim São Luiz",4595,26,-23.2987827,-45.9662542
+12324070,"Rua Rogério Barcelos Galego","","Jardim São Luiz",4595,26,-23.3145362,-45.9987554
+12324080,"Rua Fabiano Zangaro Serrano","","Jardim São Luiz",4595,26,-23.3134965,-45.9990895
+12324090,"Rua Luciana da Costa Pimentel","","Jardim São Luiz",4595,26,-23.3185000047,-45.9806992927
+12324100,"Rua João Odúlio Teixeira","","Jardim São Luiz",4595,26,-23.3138838,-46.0008748
+12324101,"Rua João Justino Pereira","","Jardim São Luiz",4595,26,-23.3128811,-46.0015732
+12324110,"Avenida Geraldo Vicente Rosa","","Jardim São Luiz",4595,26,-23.3124526,-45.9996534
+12324120,"Rua Aloisio do Amaral Campos","","Jardim Esperança",4595,26,-23.3119935,-46.0007091
+12324130,"Rua Expedicionário Roberto Bonocchi","","Jardim Esperança",4595,26,-23.2987827,-45.9662542
+12324140,"Rua Professor Décio Moreira","","Jardim Esperança",4595,26,-23.2987827,-45.9662542
+12324150,"Rua Orestes Jannuzzi","","Jardim Esperança",4595,26,-23.2987827,-45.9662542
+12324160,"Rua José Abib","","Jardim Esperança",4595,26,-23.3114552,-46.0010058
+12324170,"Rua Afonso Mariano dos Santos","","Jardim Esperança",4595,26,-23.3125741,-46.0011309
+12324180,"Rua João Justino Pereira","","Jardim Esperança",4595,26,-23.3128811,-46.0015732
+12324190,"Rua Marriete Cristina Morroni","","Jardim Esperança",4595,26,-23.312822,-46.002751
+12324200,"Avenida Arary Siqueira Moscatello","","Jardim do Portal",4595,26,-23.3124967,-46.004729
+12324210,"Rua Expedicionário Sebastião Alves Campos","","Jardim do Portal",4595,26,-23.2987827,-45.9662542
+12324220,"Rua Expedicionário Antônio Paulista","","Jardim do Portal",4595,26,-23.3125005,-46.0042616
+12324230,"Rua Professora Vera Lúcia Magalhães de Oliveira Borrego","","Jardim do Portal",4595,26,-23.2987827,-45.9662542
+12324240,"Rua Benedito Ferreira de Araújo","","Jardim do Portal",4595,26,-23.3120128,-46.0053501
+12324250,"Rua Oito de Maio","","Jardim do Portal",4595,26,-23.3186800081,-45.9808952868
+12324260,"Rua Avelino Esmerio da Silva","","Jardim do Portal",4595,26,-23.3114085,-46.003754
+12324270,"Rua Zenji Yamaguchi","","Jardim do Portal",4595,26,-23.3108611,-46.003778
+12324280,"Rua Benedito Marcolino de Souza","","Jardim do Portal",4595,26,-23.3108814,-46.0051183
+12324290,"Rua José Pinto de Oliveira","","Jardim do Portal",4595,26,-23.3103173,-46.0041875
+12324300,"Rua Almerinda Pereira Gonçalves","","Jardim do Portal",4595,26,-23.3103224,-46.0050261
+12324310,"Rua Francisco José dos Santos","("xiquinho")","Jardim do Portal",4595,26,-23.3098832,-46.0049569
+12324320,"Avenida Rodrigo Melo Franco Andrade","","Jardim Nova Esperança",4595,26,-23.3131978,-46.0084521
+12324325,"Rua Joaquim Machado de Lima","","Jardim Nova Esperança",4595,26,-23.3087269,-46.0050478
+12324330,"Avenida Mário de Andrade","","Jardim Nova Esperança",4595,26,-23.3131978,-46.0084521
+12324340,"Rua Graciliano Ramos","","Jardim Nova Esperança",4595,26,-23.3141777,-46.0112437
+12324350,"Avenida Sebastião Lopes","","Jardim Nova Esperança",4595,26,-23.3110632,-46.0096531
+12324360,"Rua Miguel Couto","","Jardim Nova Esperança",4595,26,-23.314427,-46.0117569
+12324370,"Rua Graça Aranha","","Jardim Nova Esperança",4595,26,-23.3131334,-46.0095289
+12324380,"Rua Lima Barreto","","Jardim Nova Esperança",4595,26,-23.3120548,-46.0073689
+12324390,"Rua Teodoro Sampaio","","Jardim Nova Esperança",4595,26,-23.3114335,-46.0073847
+12324400,"Rua Roquete Pinto","","Jardim Nova Esperança",4595,26,-23.3126541,-46.0098156
+12324410,"Rua Manoel Bandeira","","Jardim Nova Esperança",4595,26,-23.3119889,-46.0097049
+12324420,"Avenida Hercílio dos Santos","","Jardim Nova Esperança",4595,26,-23.305,-45.981091272

@@ -15,163 +15,63 @@ interface CepEntry {
     lon: number;
 }
 
-// Interface: uma faixa de CEPs com coordenadas reais (da base geocodificada)
-interface FaixaCep {
-    cepInicial: number;
-    cepFinal: number;
-    cidade: string;
-    lat: number;
-    lon: number;
-}
-
 @Injectable()
 export class CepService implements OnModuleInit {
 
     private index: KDBush | null = null;
     private ceps: CepEntry[] = [];
-    private faixas: FaixaCep[] = [];   // Tabela de lookup: faixa → coordenada real
     private totalCarregados = 0;
 
     async onModuleInit(): Promise<void> {
         const dataDir = path.resolve(__dirname, '..', '..', 'data');
 
-        // PASSO 1: Carrega a base geocodificada (coordenadas reais por faixa de CEP)
-        const arquivoGeo = path.join(dataDir, 'ceps.csv');
-        if (fs.existsSync(arquivoGeo)) {
-            this.faixas = await this.carregarFaixas(arquivoGeo);
-            console.log(`Tabela geográfica: ${this.faixas.length.toLocaleString('pt-BR')} faixas de CEP carregadas.`);
-        } else {
-            console.warn('Arquivo ceps.csv (geocodificado) não encontrado. Usando fallback por prefixo.');
-        }
-
-        // PASSO 2: Carrega os CSVs de CEPs individuais (logradouros)
-        if (!fs.existsSync(dataDir)) return;
-
-        const csvLogradouros = fs.readdirSync(dataDir)
-            .filter(f => f.endsWith('.csv') && f !== 'ceps.csv');
-
-        if (csvLogradouros.length === 0) {
-            console.warn('Nenhum CSV de logradouros encontrado em data/.');
+        if (!fs.existsSync(dataDir)) {
+            console.warn('Diretório data/ não encontrado.');
             return;
         }
 
-        console.log(`Carregando ${csvLogradouros.length} CSV(s) de logradouros: ${csvLogradouros.join(', ')}`);
+        // TRAVA DE SEGURANÇA: Só carrega os arquivos que já foram enriquecidos
+        const arquivosCsv = fs.readdirSync(dataDir).filter(f => f.endsWith('_enriquecido.csv'));
 
-        const promessas = csvLogradouros.map(f => this.lerCsvLogradouros(path.join(dataDir, f)));
+        if (arquivosCsv.length === 0) {
+            console.warn('Nenhum arquivo CSV "_enriquecido.csv" encontrado em data/.');
+            return;
+        }
+
+        console.log(`Carregando ${arquivosCsv.length} arquivo(s) CSV com coordenadas reais...`);
+
+        const promessas = arquivosCsv.map(f => this.lerCsvEnriquecido(path.join(dataDir, f)));
         const resultados = await Promise.all(promessas);
 
         this.ceps = resultados.flat();
         this.totalCarregados = this.ceps.length;
 
-        // Monta o índice espacial KDBush
-        this.index = new KDBush(this.ceps, (p) => p.lon, (p) => p.lat);
-
-        console.log(`Índice espacial criado com ${this.totalCarregados.toLocaleString('pt-BR')} CEPs!`);
-    }
-
-    // Carrega o CSV geocodificado (base com faixas de CEP e lat/lon reais)
-
-    private carregarFaixas(csvPath: string): Promise<FaixaCep[]> {
-        return new Promise((resolve, reject) => {
-            const faixas: FaixaCep[] = [];
-
-            fs.createReadStream(csvPath)
-                .pipe(csv({ separator: ';' }))            // delimitador é ponto-e-vírgula
-                .on('data', (linha: Record<string, string>) => {
-                    const latStr = linha['LATITUDE']?.replace(',', '.').trim();
-                    const lonStr = linha['LONGITUDE']?.replace(',', '.').trim();
-                    const cepIni = parseInt(linha['CEP_INICIAL']?.replace(/\D/g, ''));
-                    const cepFim = parseInt(linha['CEP_FINAL']?.replace(/\D/g, ''));
-
-                    if (!latStr || !lonStr || isNaN(cepIni) || isNaN(cepFim)) return;
-
-                    const lat = parseFloat(latStr);
-                    const lon = parseFloat(lonStr);
-
-                    // Filtra linhas sem coordenadas válidas
-                    if (isNaN(lat) || isNaN(lon) || lat === 0 || lon === 0) return;
-
-                    faixas.push({
-                        cepInicial: cepIni,
-                        cepFinal: cepFim,
-                        cidade: `${linha['LOCALIDADE']}/${linha['UF']}`,
-                        lat,
-                        lon,
-                    });
-                })
-                .on('end', () => {
-                    // Ordena por cepInicial para permitir binary search
-                    faixas.sort((a, b) => a.cepInicial - b.cepInicial);
-                    resolve(faixas);
-                })
-                .on('error', reject);
-        });
-    }
-
-    // Busca a coordenada real para um CEP numérico na tabela de faixas
-    // Usa binary search (O(log n)) — as faixas são ordenadas por cepInicial na carga
-
-    private buscarCoordenadaReal(cepNum: number): FaixaCep | null {
-        let lo = 0;
-        let hi = this.faixas.length - 1;
-
-        while (lo <= hi) {
-            const mid = (lo + hi) >>> 1;
-            const faixa = this.faixas[mid];
-
-            if (cepNum < faixa.cepInicial) {
-                hi = mid - 1;
-            } else if (cepNum > faixa.cepFinal) {
-                lo = mid + 1;
-            } else {
-                return faixa; // encontrado
-            }
+        if (this.totalCarregados === 0) {
+            console.warn('Nenhum CEP válido foi carregado dos arquivos.');
+            return;
         }
 
-        return null;
+        // Monta o índice espacial direto com as coordenadas reais
+        this.index = new KDBush(this.ceps, (p) => p.lon, (p) => p.lat);
+
+        console.log(`Índice espacial criado com sucesso! ${this.totalCarregados.toLocaleString('pt-BR')} CEPs carregados.`);
     }
 
-    // Aplica um offset pseudo-determinístico (jitter geocoding) ao centro da cidade.
-    // Spread: ±0.09° ≈ ±10 km (diâmetro típico de uma cidade média)
-    private aplicarJitter(cepNum: number, faixa: FaixaCep): { lat: number; lon: number } {
-        const SPREAD = 0.09; // ~10 km de raio
-
-        // Hash multiplicativo de Knuth (32-bit) — mistura bits de forma eficiente
-        // Math.imul garante multiplicação inteira de 32 bits sem overflow em JS
-        const h1 = Math.imul(cepNum, 2654435761) >>> 0;
-        const h2 = Math.imul(cepNum ^ (cepNum >>> 16), 2246822519) >>> 0;
-
-        // Normaliza para [0, 1] e converte para coordenadas polares no disco
-        const angulo = (h1 / 0xFFFFFFFF) * 2 * Math.PI;
-        const raio = Math.sqrt(h2 / 0xFFFFFFFF); // sqrt = distribuição uniforme no disco
-
-        return {
-            lat: faixa.lat + Math.sin(angulo) * raio * SPREAD,
-            lon: faixa.lon + Math.cos(angulo) * raio * SPREAD,
-        };
-    }
-
-    private lerCsvLogradouros(csvPath: string): Promise<CepEntry[]> {
+    private lerCsvEnriquecido(csvPath: string): Promise<CepEntry[]> {
         return new Promise((resolve, reject) => {
             const dados: CepEntry[] = [];
 
             fs.createReadStream(csvPath)
-                .pipe(csv({
-                    headers: ['cep', 'logradouro', 'complemento', 'bairro', 'id_cidade', 'id_estado'],
-                    skipComments: true,
-                }))
+                .pipe(csv()) 
                 .on('data', (linha: Record<string, string>) => {
                     const cepLimpo = linha.cep?.replace(/\D/g, '');
                     if (!cepLimpo || cepLimpo.length !== 8) return;
 
-                    const cepNum = parseInt(cepLimpo);
+                    const lat = parseFloat(linha.lat);
+                    const lon = parseFloat(linha.lon);
 
-                    // Busca a coordenada real na tabela de faixas
-                    const faixa = this.buscarCoordenadaReal(cepNum);
-                    if (!faixa) return; // CEP sem cobertura geográfica
-
-                    // Aplica jitter para diferenciar CEPs dentro da mesma cidade
-                    const { lat, lon } = this.aplicarJitter(cepNum, faixa);
+                    // Pula as linhas que o robô não conseguiu achar a coordenada no Cep Aberto
+                    if (isNaN(lat) || isNaN(lon)) return;
 
                     const cepFormatado = `${cepLimpo.substring(0, 5)}-${cepLimpo.substring(5)}`;
 
@@ -179,7 +79,7 @@ export class CepService implements OnModuleInit {
                         cep: cepFormatado,
                         logradouro: linha.logradouro || 'Logradouro não informado',
                         bairro: linha.bairro || '',
-                        cidade: faixa.cidade,
+                        cidade: linha.id_cidade ? `Cidade ID: ${linha.id_cidade}` : 'Desconhecida',
                         lat,
                         lon,
                     });
@@ -194,7 +94,6 @@ export class CepService implements OnModuleInit {
 
     // ─────────────────────────────────────────────────────────────────────────
     // Endpoint principal: busca CEPs dentro de um raio (em km) a partir de um CEP de origem
-    // Suporta paginação via limit e offset
     // ─────────────────────────────────────────────────────────────────────────
     async buscarCepsProximos(
         cepOrigem: string,

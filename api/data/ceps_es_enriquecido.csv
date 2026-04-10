@@ -1,0 +1,667 @@
+cep,logradouro,complemento,bairro,id_cidade,id_estado,lat,lon
+29164483,"Rua Rio Marinho","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164484,"Rua Seringueira","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164498,"Rua Acácias","","Praia de Carapebus",9267,8,-20.2217291,-40.2109694
+29164499,"Rua Buriti","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164500,"Rua Cabo Martins","","Praia de Carapebus",9267,8,-20.2323996,-40.2162486
+29164501,"Rua Guaratá","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164502,"Rua Patos de Minas","","Praia de Carapebus",9267,8,-20.2294214,-40.2151635
+29164503,"Travessa Espírito Santo","","Praia de Carapebus",9267,8,-20.2320721,-40.215239
+29164504,"Rua Bonsucesso","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164505,"Rua Diamantina","","Praia de Carapebus",9267,8,-20.2305199,-40.2146749
+29164507,"Rua Tiago Amâncio da Silva","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164509,"Rua Sumaré","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164510,"Rua Gilseppi Verdi","","Praia de Carapebus",9267,8,-20.2328093,-40.2193244
+29164511,"Rua da Liberdade","","Praia de Carapebus",9267,8,-20.2287561,-40.2190367
+29164515,"Rua Lavras","","Praia de Carapebus",9267,8,-20.2304056,-40.2138806
+29164522,"Rua dos Canários","","Lagoa de Carapebus",9267,8,-20.1075799939,-40.308
+29164523,"Rua das Garças","","Lagoa de Carapebus",9267,8,-20.2226986,-40.2201757
+29164524,"Rua João-de-barro","","Lagoa de Carapebus",9267,8,-20.2215392,-40.2472234
+29164526,"Rua Bem-te-vi","","Lagoa de Carapebus",9267,8,-20.2243984,-40.2181773
+29164527,"Rua Saracura","","Lagoa de Carapebus",9267,8,-20.2264882,-40.2187587
+29164528,"Rua Beija-flor","","Lagoa de Carapebus",9267,8,-20.2249989,-40.2173018
+29164529,"Rua Uirapuru","","Lagoa de Carapebus",9267,8,-20.2243984,-40.2181773
+29164627,"Rua Boa Esperança","","Guaraciaba",9267,8,-20.2021132,-40.2396581
+29164628,"Beco Boa Esperança 1","","Guaraciaba",9267,8,-20.2020944,-40.2390944
+29164629,"Beco Florianópolis","","Guaraciaba",9267,8,-20.2016434,-40.2398676
+29164631,"Rua Lavrador José Barbosa da Silva","","Guaraciaba",9267,8,-20.2034375,-40.2423047
+29164632,"Rua Gustavo Barroso","","Guaraciaba",9267,8,-20.2035039,-40.2448898
+29164633,"Rua Santa Rosa","","Guaraciaba",9267,8,-20.201884,-40.2451789
+29164637,"Beco Antônio Tironi","","Guaraciaba",9267,8,-20.2023703,-40.2444966
+29164639,"Rua Augusto dos Anjos","","Guaraciaba",9267,8,-20.2048968,-40.2439248
+29164643,"Rua Nove","","Guaraciaba",9267,8,-20.202362,-40.2426329
+29164644,"Rua Primavera","","Guaraciaba",9267,8,-20.2016601,-40.238811
+29164731,"Rua Goiás","","Bicanga",9267,8,-20.2213955,-40.2756653
+29164732,"Rua dos Colibris","","Bicanga",9267,8,-20.1954261,-40.2234608
+29164745,"Rua Alegre","","Bicanga",9267,8,-20.1841782,-40.2294239
+29164782,"Rua Hawaí","","Bicanga",9267,8,-20.2136408,-40.2141995
+29164783,"Rua Felipe Xavier","","Bicanga",9267,8,-20.2149633,-40.1994366
+29164784,"Rua Goiânia","","Bicanga",9267,8,-20.215602,-40.1993164
+29164785,"Rua Pernambuco","","Bicanga",9267,8,-20.2176441,-40.2022924
+29164786,"Rua Tocantins","","Bicanga",9267,8,-20.2172296,-40.2032145
+29164787,"Rua Brasília","","Bicanga",9267,8,-20.2186815,-40.2022512
+29164788,"Rua Morada Verde","","Bicanga",9267,8,-20.2139031,-40.2064132
+29164789,"Rua Amapá","","Bicanga",9267,8,-20.2123138,-40.2041151
+29164790,"Rua Acre","","Bicanga",9267,8,-20.218048,-40.2032441
+29164791,"Rua Amazonas","","Bicanga",9267,8,-20.2171058,-40.2011206
+29164792,"Rua São Francisco","","Bicanga",9267,8,-20.2119994,-40.2049191
+29164793,"Beco Rio Grande do Sul","","Bicanga",9267,8,-20.210936,-40.2004163
+29164795,"Rua Gutemberg","","Bicanga",9267,8,-20.2121502,-40.205419
+29164796,"Avenida Curitiba","","Bicanga",9267,8,-20.212789,-40.2006389
+29164797,"Rua Rio Grande do Sul","","Bicanga",9267,8,-20.210936,-40.2004163
+29164798,"Rua Santa Catarina","","Bicanga",9267,8,-20.2117622,-40.200674
+29164799,"Rua Espírito Santo","","Bicanga",9267,8,-20.2135225,-40.2017115
+29164801,"Rua Minas Gerais","","Bicanga",9267,8,-20.2136701,-40.2011565
+29164802,"Rua Bahia","","Bicanga",9267,8,-20.2143586,-40.2007467
+29164803,"Rua São Paulo","","Bicanga",9267,8,-20.2134615,-40.199924
+29164804,"Rua Santo Antônio","","Bicanga",9267,8,-20.2096825,-40.2020247
+29164805,"Rua Paraná","","Bicanga",9267,8,-20.2175382,-40.200724
+29164806,"Rua Santa Rosa de Lima","","Bicanga",9267,8,-20.213791,-40.2005996
+29164807,"Rua Rio de Janeiro","","Bicanga",9267,8,-20.2167271,-40.2015008
+29164808,"Travessa Rio Grande do Norte","","Bicanga",9267,8,-20.2165036,-40.2000473
+29164809,"Rua Verde Mar","","Bicanga",9267,8,-20.2142401,-40.2074346
+29164810,"Rua Belo Horizonte","","Bicanga",9267,8,-20.2303036,-40.2144369
+29164811,"Rua Rio Grande do Norte","","Bicanga",9267,8,-20.2165036,-40.2000473
+29164812,"Rua Maranhão","","Bicanga",9267,8,-20.2177027,-40.2029005
+29164814,"Rua Alagoas","","Bicanga",9267,8,-20.2181661,-40.2025335
+29164815,"Rua Guanabara","","Bicanga",9267,8,-20.2149433,-40.1996988
+29164817,"Avenida Bicanga","","Bicanga",9267,8,-20.2052203,-40.20004
+29164830,"Avenida Augusto Ruschi","","Balneário de Carapebus",9267,8,-20.2206192,-40.2119915
+29164832,"Rua da Acácia","","Balneário de Carapebus",9267,8,-20.2184052,-40.2100985
+29164833,"Rua da Jaqueira","","Balneário de Carapebus",9267,8,-20.2200476,-40.2080353
+29164840,"Rua do Eucalipto","","Balneário de Carapebus",9267,8,-20.2234936,-40.2056269
+29164845,"Rua do Ficus","","Balneário de Carapebus",9267,8,-20.2239488,-40.2076051
+29164846,"Rua da Laranjeira","","Balneário de Carapebus",9267,8,-20.2224817,-40.2081636
+29164847,"Rua do Juazeiro","","Balneário de Carapebus",9267,8,-20.2209352,-40.2069091
+29164848,"Rua da Ameixeira","","Balneário de Carapebus",9267,8,-20.2182387,-40.2151099
+29164849,"Rua do Genipapeiro","","Balneário de Carapebus",9267,8,-20.2182575,-40.2128006
+29164850,"Rua das Jabuticabeiras","","Balneário de Carapebus",9267,8,-20.2207217,-40.209229
+29164851,"Rua do Jequitibá","","Balneário de Carapebus",9267,8,-20.2221715,-40.2091495
+29164852,"Rua da Tangerina","","Balneário de Carapebus",9267,8,-20.2137471,-40.2205048
+29164853,"Avenida do Meio","","Balneário de Carapebus",9267,8,-20.2234251,-40.2072183
+29164854,"Rua da Mangueira","","Balneário de Carapebus",9267,8,-20.2204596,-40.2060086
+29164855,"Rua da Braúna","","Balneário de Carapebus",9267,8,-20.2220991,-40.2104873
+29164856,"Rua da Carambola","","Balneário de Carapebus",9267,8,-20.2188544,-40.216361
+29164857,"Rua da Figueira","","Balneário de Carapebus",9267,8,-20.2186015,-40.2146605
+29164858,"Rua da Pitangueira","","Balneário de Carapebus",9267,8,-20.2208671,-40.2159989
+29164859,"Rua da Pereira","","Balneário de Carapebus",9267,8,-20.2220337,-40.2138245
+29164860,"Rua Chácara do Céu","","Balneário de Carapebus",9267,8,-20.2236431,-40.2123738
+29164861,"Rua da Peroba","","Balneário de Carapebus",9267,8,-20.225192,-40.2117026
+29164862,"Rua do Marmeleiro","","Balneário de Carapebus",9267,8,-20.2178832,-40.213262
+29164863,"Rua do Coqueiro","","Balneário de Carapebus",9267,8,-20.220183,-40.2074697
+29164864,"Rua da Goiabeira","","Balneário de Carapebus",9267,8,-20.2198389,-40.2057912
+29164865,"Rua do Araçá","","Balneário de Carapebus",9267,8,-20.2191765,-40.2058512
+29164866,"Travessa do Cravo","","Balneário de Carapebus",9267,8,-20.2201107,-40.2126544
+29164867,"Rua do Abacaxi","","Balneário de Carapebus",9267,8,-20.2211742,-40.2128742
+29164868,"Rua do Juá","","Balneário de Carapebus",9267,8,-20.2217952,-40.2133065
+29164869,"Rua da Macieira","","Balneário de Carapebus",9267,8,-20.2216044,-40.2124071
+29164871,"Rua do Ipê","","Balneário de Carapebus",9267,8,-20.2244499,-40.2114169
+29164872,"Rua da Castanheira","","Balneário de Carapebus",9267,8,-20.2262712,-40.2113786
+29164874,"Rua da Bicuíba","","Balneário de Carapebus",9267,8,-20.2208031,-40.2094249
+29164875,"Avenida Honolulu","","Balneário de Carapebus",9267,8,-20.2129725,-40.2195534
+29164876,"Rua do Pequiá","","Balneário de Carapebus",9267,8,-20.2207217,-40.209229
+29164878,"Rua da Casuarina","","Balneário de Carapebus",9267,8,-20.2241421,-40.2069961
+29164879,"Rua do Abacateiro","","Balneário de Carapebus",9267,8,-20.2232001,-40.2091358
+29164880,"Avenida Beira Mar","","Balneário de Carapebus",9267,8,-20.2174178,-40.1998898
+29164881,"Rua do Vinhático","","Balneário de Carapebus",9267,8,-20.2279867,-40.2102715
+29164882,"Rua do Oitizeiro","","Balneário de Carapebus",9267,8,-20.2262666,-40.2098982
+29164883,"Rua do Jacarandá","","Balneário de Carapebus",9267,8,-20.2260712,-40.2092207
+29164884,"Rua do Flamboyant","","Balneário de Carapebus",9267,8,-20.2207217,-40.209229
+29164886,"Rua do Cedro","","Balneário de Carapebus",9267,8,-20.2237911,-40.2098816
+29164887,"Rua da Cangerona","","Balneário de Carapebus",9267,8,-20.2248368,-40.2092129
+29164888,"Rua do Cajueiro","","Balneário de Carapebus",9267,8,-20.2197671,-40.2044581
+29164901,"Rua Nelcy Lopes Vieira 444","","Jardim Limoeiro",9267,8,-20.1215224,-40.3077898
+29164908,"Rua Antônio Francisco Vecci 35","","Jardim Limoeiro",9267,8,-20.1215224,-40.3077898
+29164909,"Rua Antônio Francisco Vecci 37","","Jardim Limoeiro",9267,8,-20.1215224,-40.3077898
+29164910,"Avenida Brasil 934","","São Diogo II",9267,8,-20.1215224,-40.3077898
+29164920,"Avenida Terceira Avenida 745","","São Diogo I",9267,8,-20.1215224,-40.3077898
+29164925,"Rua Belo Horizonte I 165","","Jardim Limoeiro",9267,8,-20.1215224,-40.3077898
+29164933,"Rua Almerinda Alves da Silva 144","","São Diogo I",9267,8,-20.1215224,-40.3077898
+29164935,"Rua Vitória 145","","Jardim Limoeiro",9267,8,-20.1215224,-40.3077898
+29164945,"Rua Gustavo Barroso 401","","Chácara Parreiral",9267,8,-20.2036251,-40.2454091
+29164973,"Avenida São José 380 Loja 3","","Jardim Limoeiro",9267,8,-20.2141975,-40.2670743
+29165010,"Rodovia Norte Sul","","Parque Residencial Laranjeiras",9267,8,-20.1996906,-40.2567703
+29165013,"Rua Guimarães","","Parque Residencial Laranjeiras",9267,8,-20.2179407,-40.2643405
+29165020,"Rua José Bonifácio","","Parque Residencial Laranjeiras",9267,8,-20.2003379,-40.2517917
+29165024,"Rua Carlos Polido","","Parque Residencial Laranjeiras",9267,8,-20.2035433,-40.2521773
+29165025,"Rua Wagner","","Parque Residencial Laranjeiras",9267,8,-20.2038711,-40.2547944
+29165030,"Rua Lineu","","Parque Residencial Laranjeiras",9267,8,-20.1983113,-40.2586059
+29165032,"Avenida Civit","","Parque Residencial Laranjeiras",9267,8,-20.1951264,-40.252112
+29165040,"Rua Galileu","","Parque Residencial Laranjeiras",9267,8,-20.1951035,-40.2587313
+29165046,"Travessa W1","","Parque Residencial Laranjeiras",9267,8,-20.1953826,-40.2514694
+29165047,"Rua Gutemberg","","Parque Residencial Laranjeiras",9267,8,-20.1978867,-40.2588256
+29165048,"Rua Santos Dumont","","Parque Residencial Laranjeiras",9267,8,-20.1964949,-40.2592048
+29165050,"Rua Pasteur","","Parque Residencial Laranjeiras",9267,8,-20.1955878,-40.2587822
+29165052,"Travessa XY","","Parque Residencial Laranjeiras",9267,8,-20.2384047,-40.2168174
+29165053,"Travessa Y1","","Parque Residencial Laranjeiras",9267,8,-20.2009754,-40.2526607
+29165054,"Travessa Almirante Tamandaré","","Parque Residencial Laranjeiras",9267,8,-20.2010912,-40.2510725
+29165055,"Rua da Graça","","Parque Residencial Laranjeiras",9267,8,-20.2028389,-40.2515896
+29165057,"Travessa Vinícius de Moraes","","Parque Residencial Laranjeiras",9267,8,-20.2005565,-40.2486122
+29165062,"Travessa V4","","Parque Residencial Laranjeiras",9267,8,-20.2379843,-40.2156156
+29165065,"Avenida Copacabana","","Parque Residencial Laranjeiras",9267,8,-20.1945667,-40.236089
+29165067,"Travessa Rio Branco","","Parque Residencial Laranjeiras",9267,8,-20.2011003,-40.2523455
+29165070,"Rua Benjamin Franklin","","Parque Residencial Laranjeiras",9267,8,-20.1981306,-40.257704
+29165080,"Rua Archimedes","","Parque Residencial Laranjeiras",9267,8,-20.198377,-40.2580933
+29165090,"Rua Manoel Bandeira","","Parque Residencial Laranjeiras",9267,8,-20.1959009,-40.2572692
+29165110,"Rua Olavo Bilac","","Parque Residencial Laranjeiras",9267,8,-20.1969192,-40.2567183
+29165120,"Rua Guilherme de Almeida","","Parque Residencial Laranjeiras",9267,8,-20.197313,-40.2568872
+29165130,"Avenida Central","","Parque Residencial Laranjeiras",9267,8,-20.1994028,-40.2522961
+29165131,"Travessa X1","","Parque Residencial Laranjeiras",9267,8,-20.2384047,-40.2168174
+29165132,"Travessa Z5","","Parque Residencial Laranjeiras",9267,8,-20.1995291,-40.2530377
+29165133,"Travessa Z2","","Parque Residencial Laranjeiras",9267,8,-20.2068087,-40.2712402
+29165134,"Travessa Z4","","Parque Residencial Laranjeiras",9267,8,-20.1903058,-40.2377214
+29165135,"Travessa Z6","","Parque Residencial Laranjeiras",9267,8,-20.2068087,-40.2712402
+29165136,"Travessa Z3","","Parque Residencial Laranjeiras",9267,8,-20.2255182,-40.2810179
+29165137,"Travessa Z1","","Parque Residencial Laranjeiras",9267,8,-20.1975771,-40.2602762
+29165139,"Travessa U1","","Parque Residencial Laranjeiras",9267,8,-20.1953362,-40.2568186
+29165140,"Rua Torricelli","","Parque Residencial Laranjeiras",9267,8,-20.1982969,-40.2552345
+29165141,"Travessa V5","","Parque Residencial Laranjeiras",9267,8,-20.1995291,-40.2530377
+29165143,"Travessa V3","","Parque Residencial Laranjeiras",9267,8,-20.2379519,-40.2156028
+29165144,"Travessa V1","","Parque Residencial Laranjeiras",9267,8,-20.237947,-40.2156283
+29165146,"Travessa W2","","Parque Residencial Laranjeiras",9267,8,-20.1958543,-40.2523559
+29165147,"Travessa V2","","Parque Residencial Laranjeiras",9267,8,-20.2379816,-40.2156272
+29165148,"Escadaria Fábio Ruschi","","Parque Residencial Laranjeiras",9267,8,-20.1982969,-40.2552345
+29165150,"Rua da Aldeia","","Parque Residencial Laranjeiras",9267,8,-20.198448,-40.2440009
+29165152,"Travessa Augusto Ruschi","","Parque Residencial Laranjeiras",9267,8,-20.2010409,-40.2562711
+29165155,"Avenida Primeira Avenida","","Parque Residencial Laranjeiras",9267,8,-20.1962933,-40.2554235
+29165156,"Travessa U2","","Parque Residencial Laranjeiras",9267,8,-20.1999937,-40.2504695
+29165160,"Rua Casimiro de Abreu","","Parque Residencial Laranjeiras",9267,8,-20.1976215,-40.256306
+29165161,"Travessa U3","","Parque Residencial Laranjeiras",9267,8,-20.1972065,-40.2473553
+29165170,"Rua Pitágoras","","Parque Residencial Laranjeiras",9267,8,-20.1995627,-40.2561847
+29165171,"Rua Augusto Ruschi","","Parque Residencial Laranjeiras",9267,8,-20.2010409,-40.2562711
+29165180,"Rua Isaac Newton","","Parque Residencial Laranjeiras",9267,8,-20.1996094,-40.2556183
+29165190,"Rua Bethoven","","Parque Residencial Laranjeiras",9267,8,-20.2027344,-40.2556024
+29165200,"Rua Lavosier","","Parque Residencial Laranjeiras",9267,8,-20.2014186,-40.2555961
+29165208,"Alameda Tom Jobim","","Parque Residencial Laranjeiras",9267,8,-20.1982969,-40.2552345
+29165210,"Rua Thomas Edson","","Parque Residencial Laranjeiras",9267,8,-20.1994223,-40.2551965
+29165230,"Rua Verdi","","Parque Residencial Laranjeiras",9267,8,-20.2022309,-40.2547012
+29165240,"Rua Chopin","","Parque Residencial Laranjeiras",9267,8,-20.1958015,-40.2452162
+29165250,"Rua Coelho Neto","","Parque Residencial Laranjeiras",9267,8,-20.197776,-40.2544337
+29165260,"Rua Carlos Gomes","","Parque Residencial Laranjeiras",9267,8,-20.2017681,-40.2542427
+29165270,"Rua Mozart","","Parque Residencial Laranjeiras",9267,8,-20.2036394,-40.2534569
+29165290,"Rua Olegário Mariano","","Parque Residencial Laranjeiras",9267,8,-20.1983613,-40.2538621
+29165300,"Rua Raul de Leoni","","Parque Residencial Laranjeiras",9267,8,-20.1981584,-40.254458
+29165310,"Rua Euclides da Cunha","","Parque Residencial Laranjeiras",9267,8,-20.1986578,-40.2517024
+29165320,"Rua Vicente de Carvalho","","Parque Residencial Laranjeiras",9267,8,-20.1984178,-40.2530699
+29165330,"Rua Castro Alves","","Parque Residencial Laranjeiras",9267,8,-20.1978622,-40.2531276
+29165340,"Rua Rio Branco","","Parque Residencial Laranjeiras",9267,8,-20.2011003,-40.2523455
+29165350,"Rua Monteiro Lobato","","Parque Residencial Laranjeiras",9267,8,-20.1965287,-40.2515935
+29165360,"Rua Almirante Tamandaré","","Parque Residencial Laranjeiras",9267,8,-20.145905,-40.2962357
+29165370,"Rua Dom Pedro II","","Parque Residencial Laranjeiras",9267,8,-20.1999937,-40.2504695
+29165380,"Rua Tiradentes","","Parque Residencial Laranjeiras",9267,8,-20.1999412,-40.2522619
+29165390,"Avenida Segunda Avenida","","Parque Residencial Laranjeiras",9267,8,-20.1971146,-40.2526233
+29165400,"Rua Paulo Setubal","","Parque Residencial Laranjeiras",9267,8,-20.1972218,-40.2502401
+29165420,"Rua Álvares Cabral","","Parque Residencial Laranjeiras",9267,8,-20.2000179,-40.2501818
+29165430,"Rua Rui Barbosa","","Parque Residencial Laranjeiras",9267,8,-20.1993449,-40.249802
+29165440,"Rua Princesa Isabel","","Parque Residencial Laranjeiras",9267,8,-20.2001909,-40.2490576
+29165450,"Rua Estácio de Sá","","Parque Residencial Laranjeiras",9267,8,-20.2000547,-40.2507373
+29165460,"Rua Miguel Angelo","","Parque Residencial Laranjeiras",9267,8,-20.1977846,-40.2477077
+29165490,"Rua Machado de Assis","","Parque Residencial Laranjeiras",9267,8,-20.1957114,-40.2510374
+29165491,"Rua Afonso Arinos Melo Franco","","Parque Residencial Laranjeiras",9267,8,-20.1969396,-40.2518087
+29165500,"Rua Viriato Corrêa","","Parque Residencial Laranjeiras",9267,8,-20.1964359,-40.2483283
+29165510,"Rua Gustavo Barroso","","Parque Residencial Laranjeiras",9267,8,-20.1959015,-40.2482185
+29165520,"Rua Renoir","","Parque Residencial Laranjeiras",9267,8,-20.1980787,-40.2475764
+29165530,"Rua Pablo Picasso","","Parque Residencial Laranjeiras",9267,8,-20.1970771,-40.2461818
+29165540,"Rua Sandro Boticelli","","Parque Residencial Laranjeiras",9267,8,-20.1982969,-40.2552345
+29165550,"Rua Rembrandt","","Parque Residencial Laranjeiras",9267,8,-20.1970325,-40.2468704
+29165560,"Rua Rafael","","Parque Residencial Laranjeiras",9267,8,-20.1985729,-40.247612
+29165570,"Rua Liszt","","Parque Residencial Laranjeiras",9267,8,-20.203204,-40.2538637
+29165580,"Rua Portinari","","Parque Residencial Laranjeiras",9267,8,-20.1965721,-40.2461547
+29165591,"Rua Mendel","","Parque Residencial Laranjeiras",9267,8,-20.1973634,-40.2589295
+29165592,"Rua Robert Maltus","","Parque Residencial Laranjeiras",9267,8,-20.1965324,-40.2586891
+29165600,"Rua Duque de Caxias","","Parque Residencial Laranjeiras",9267,8,-20.2003261,-40.2495833
+29165610,"Avenida BNH","","Parque Residencial Laranjeiras",9267,8,-20.1958837,-40.254349
+29165620,"Rua José de Alencar","","Parque Residencial Laranjeiras",9267,8,-20.1969172,-40.2497513
+29165640,"Rua Antônio Vieira","","Parque Residencial Laranjeiras",9267,8,-20.1976093,-40.2512966
+29165650,"Rua Lima Barreto","","Parque Residencial Laranjeiras",9267,8,-20.1981456,-40.2517819
+29165660,"Rua Felipe dos Santos","","Parque Residencial Laranjeiras",9267,8,-20.2010722,-40.2529181
+29165670,"Rua Lins do Rego","","Parque Residencial Laranjeiras",9267,8,-20.1979852,-40.251189
+29165680,"Avenida Eldes Scherrer Souza","","Parque Residencial Laranjeiras",9267,8,-20.1944911,-40.2565549
+29165740,"Rodovia ES-010","","Santa Luzia",9267,8,-20.2085455,-40.2505163
+29165741,"Rua Santa Luzia","","Santa Luzia",9267,8,-20.2053455,-40.2757794
+29165742,"Rua Santa Alice","","Santa Luzia",9267,8,-20.2085111,-40.2618232
+29165743,"Rua Manaus","","Santa Luzia",9267,8,-20.2082329,-40.2597513
+29165745,"Rua Boa Esperança","","Santa Luzia",9267,8,-20.2078525,-40.2591108
+29165746,"Rua Boa Esperança I","","Santa Luzia",9267,8,-20.2078525,-40.2591108
+29165749,"Rua Projetada V","","Santa Luzia",9267,8,-20.2097648,-40.277675
+29165751,"Rua Rio de Janeiro","","Santa Luzia",9267,8,-20.2086432,-40.2590376
+29165752,"Rodovia Norte Sul","","Santa Luzia",9267,8,-20.2045806,-40.260008
+29165753,"Avenida Guarapari","","Santa Luzia",9267,8,-20.2062258,-40.2644938
+29165757,"Rua dos Ipês","","Santa Luzia",9267,8,-20.2049557,-40.258493
+29165770,"Avenida Eldes Scherrer Souza","","Valparaíso",9267,8,-20.1941584,-40.2615121
+29165786,"Alameda das Orquídeas","","Valparaíso",9267,8,-20.1945751,-40.2619022
+29165788,"Alameda das Avencas","","Valparaíso",9267,8,-20.194619,-40.2613192
+29165789,"Alameda das Violetas","","Valparaíso",9267,8,-20.194699,-40.2610148
+29165791,"Avenida Guarapari","","Valparaíso",9267,8,-20.2042252,-40.2636529
+29165793,"Rua Santos Dumont","","Valparaíso",9267,8,-20.1963864,-40.2591985
+29165795,"Rua Aloízio Gonçalves Frois","","Valparaíso",9267,8,-20.198184,-40.2605871
+29165797,"Rua Itaúnas","","Valparaíso",9267,8,-20.1978066,-40.2602846
+29165798,"Avenida Anchieta","","Valparaíso",9267,8,-20.1975544,-40.2606051
+29165803,"Alameda das Hortências","","Valparaíso",9267,8,-20.1945543,-40.2621986
+29165806,"Rua Afonso Cláudio","","Valparaíso",9267,8,-20.1957593,-40.2617139
+29165807,"Rua Guaçuí","","Valparaíso",9267,8,-20.1958673,-40.2599458
+29165809,"Avenida Piuma","","Valparaíso",9267,8,-20.1933229,-40.2277276
+29165810,"Rua Alegre","","Valparaíso",9267,8,-20.1966748,-40.2601663
+29165813,"Rua Carapebus","","Valparaíso",9267,8,-20.198873,-40.2612641
+29165817,"Rua Santa Cruz","","Valparaíso",9267,8,-20.2004239,-40.2645672
+29165818,"Rua Nova Almeida","","Valparaíso",9267,8,-20.2005643,-40.2640537
+29165819,"Rua Jacaraípe","","Valparaíso",9267,8,-20.2006036,-40.2635524
+29165821,"Rua Itapoã","","Valparaíso",9267,8,-20.2009642,-40.2625524
+29165822,"Rua Setiba","","Valparaíso",9267,8,-20.2002444,-40.2619912
+29165825,"Rua Anchieta","","Valparaíso",9267,8,-20.2015778,-40.2638577
+29165827,"Rua Marataízes","","Valparaíso",9267,8,-20.199119,-40.2650172
+29165828,"Rua Guriri","","Valparaíso",9267,8,-20.1974644,-40.259785
+29165830,"Rua Manguinhos","","Valparaíso",9267,8,-20.2007188,-40.2630434
+29165900,"Rua Afonso Cláudio 30","","Valparaíso",9267,8,-20.1973323,-40.2609827
+29165901,"Rua Afonso Cláudio 142","","Valparaíso",9267,8,-20.1973323,-40.2609827
+29165903,"Rua Marataízes 34","","Valparaíso",9267,8,-20.1989668,-40.2639192
+29165904,"Rua Santos Dumont 10","","Valparaíso",9267,8,-20.1973323,-40.2609827
+29165915,"Rua da Aldeia 220","","Parque Residencial Laranjeiras",9267,8,-20.1982969,-40.2552345
+29165925,"Rua da Aldeia 216","","Parque Residencial Laranjeiras",9267,8,-20.1982969,-40.2552345
+29165970,"Avenida Central 1319","","Parque Residencial Laranjeiras",9267,8,-20.1973223,-40.2579583
+29165973,"Rua Coelho Neto, s/n Loja 11","","Parque Residencial Laranjeiras",9267,8,-20.1982969,-40.2552345
+29166000,"Rua Itajubá","","Barcelona",9267,8,-20.1727056,-40.2555033
+29166005,"Avenida Região Nordeste","","Barcelona",9267,8,-20.1692837,-40.253625
+29166010,"Rua Sobral","","Barcelona",9267,8,-20.1720434,-40.2615484
+29166012,"Rua Guarabira","","Barcelona",9267,8,-20.1722839,-40.2610663
+29166014,"Rua Canindé","","Barcelona",9267,8,-20.172001,-40.2605777
+29166020,"Rua Afonso Cláudio","","Barcelona",9267,8,-20.1751312,-40.2613538
+29166021,"Rua Crateús","","Barcelona",9267,8,-20.1719944,-40.2601107
+29166022,"Rua Campina Grande","","Barcelona",9267,8,-20.1719087,-40.2596264
+29166023,"Rua Juazeiro","","Barcelona",9267,8,-20.171535,-40.2591564
+29166024,"Rua Arco Verde","","Barcelona",9267,8,-20.1716172,-40.2586672
+29166025,"Rua Viana","","Barcelona",9267,8,-20.1749059,-40.262308
+29166026,"Avenida Petrolina","","Barcelona",9267,8,-20.1699803,-40.2571433
+29166027,"Avenida Olinda","","Barcelona",9267,8,-20.1711066,-40.2570938
+29166028,"Avenida Ilhéus","","Barcelona",9267,8,-20.1704177,-40.2553585
+29166029,"Rua Timbaúba","","Barcelona",9267,8,-20.170428,-40.2563826
+29166031,"Rua Limoeiro","","Barcelona",9267,8,-20.1708701,-40.2560702
+29166032,"Rua Caruaru","","Barcelona",9267,8,-20.1713309,-40.2564148
+29166033,"Rua Jaboatão","","Barcelona",9267,8,-20.171782,-40.2559995
+29166034,"Rua Pedreiras","","Barcelona",9267,8,-20.168065,-40.254604
+29166035,"Avenida Londrina","","Barcelona",9267,8,-20.171286,-40.2512922
+29166040,"Avenida São Mateus","","Barcelona",9267,8,-20.173306,-40.260302
+29166042,"Rua Parnaíba","","Barcelona",9267,8,-20.1683559,-40.2545983
+29166043,"Rua Mossoró","","Barcelona",9267,8,-20.1682231,-40.2541202
+29166044,"Avenida Itabuna","","Barcelona",9267,8,-20.1685841,-40.2545937
+29166045,"Rua Toledo","","Barcelona",9267,8,-20.171024,-40.2524158
+29166046,"Rua Alagoinhas","","Barcelona",9267,8,-20.1695185,-40.2546718
+29166047,"Rua Candeias","","Barcelona",9267,8,-20.1699547,-40.2543411
+29166048,"Rua Porto Seguro","","Barcelona",9267,8,-20.1704092,-40.2546328
+29166049,"Rua Senhor do Bonfim","","Barcelona",9267,8,-20.1708549,-40.2543194
+29166050,"Rua Colatina","","Barcelona",9267,8,-20.1737687,-40.2613412
+29166051,"Rua Jequié","","Barcelona",9267,8,-20.1713138,-40.2546166
+29166052,"Rua Vitória da Conquista","","Barcelona",9267,8,-20.1717695,-40.254279
+29166053,"Rua Cascavel","","Barcelona",9267,8,-20.1706579,-40.2517839
+29166054,"Rua Paranaguá","","Barcelona",9267,8,-20.1717264,-40.2503052
+29166055,"Rua Jundiaí","","Barcelona",9267,8,-20.1758483,-40.2459778
+29166056,"Rua Ponta Grossa","","Barcelona",9267,8,-20.1712837,-40.2506433
+29166057,"Rua Campo Mourão","","Barcelona",9267,8,-20.1708274,-40.2502843
+29166058,"Rua Maringá","","Barcelona",9267,8,-20.1703582,-40.25045
+29166059,"Rua Umuarama","","Barcelona",9267,8,-20.1699917,-40.2502154
+29166060,"Rua Muqui","","Barcelona",9267,8,-20.1733122,-40.2611026
+29166061,"Rua Paranavaí","","Barcelona",9267,8,-20.1712695,-40.2496512
+29166062,"Rua Guaíra","","Barcelona",9267,8,-20.1715523,-40.2489409
+29166064,"Rua Novo Hamburgo","","Barcelona",9267,8,-20.1715863,-40.2479214
+29166065,"Rua Santa Maria","","Barcelona",9267,8,-20.1712685,-40.24745
+29166066,"Rua São Borja","","Barcelona",9267,8,-20.1714561,-40.2469489
+29166067,"Rua Passo Fundo","","Barcelona",9267,8,-20.1712873,-40.2464943
+29166068,"Rua Bajé","","Barcelona",9267,8,-20.1714294,-40.2460314
+29166069,"Avenida Uruguaiana","","Barcelona",9267,8,-20.1706727,-40.2469714
+29166070,"Rua Linhares","","Barcelona",9267,8,-20.1728469,-40.261102
+29166071,"Avenida Blumenau","","Barcelona",9267,8,-20.1693728,-40.2470026
+29166072,"Rua Joinville","","Barcelona",9267,8,-20.170286,-40.2501246
+29166073,"Rua Brusque","","Barcelona",9267,8,-20.1686478,-40.2474775
+29166074,"Rua Joaçaba","","Barcelona",9267,8,-20.1690101,-40.246536
+29166075,"Rua Criciúma","","Barcelona",9267,8,-20.168686,-40.246054
+29166077,"Rua Canela","","Barcelona",9267,8,-20.1698756,-40.2474713
+29166078,"Rua Garibaldi","","Barcelona",9267,8,41.3798279,2.1752265
+29166079,"Rua Monte Negro","","Barcelona",9267,8,-20.169888,-40.2465009
+29166080,"Rua Aracruz","","Barcelona",9267,8,-20.1727456,-40.2598098
+29166081,"Rua Santo Ângelo","","Barcelona",9267,8,-20.1701291,-40.2460507
+29166082,"Rua Tubarão","","Barcelona",9267,8,-20.168944,-40.2449074
+29166083,"Rua Laguna","","Barcelona",9267,8,-20.1693456,-40.2448986
+29166085,"Rua Dourados","","Barcelona",9267,8,-20.1708661,-40.2416261
+29166086,"Rua Três Lagoas","","Barcelona",9267,8,-20.1713248,-40.2414956
+29166087,"Rua Itaporã","","Barcelona",9267,8,-20.1717757,-40.2417438
+29166088,"Rua Aragarça","","Barcelona",9267,8,-20.1715496,-40.242414
+29166089,"Rua Goiatuba","","Barcelona",9267,8,-20.1717768,-40.2429083
+29166090,"Rua Vila Velha","","Barcelona",9267,8,-20.1727381,-40.2593325
+29166091,"Rua Ceres","","Barcelona",9267,8,-20.1714822,-40.243392
+29166092,"Rua Itumbiara","","Barcelona",9267,8,-20.1717757,-40.2438633
+29166095,"Rodovia Governador Mário Covas","","Barcelona",9267,8,-20.1231046,-40.3055334
+29166096,"Rua Rio Verde","","Barcelona",9267,8,-20.1717685,-40.2448622
+29166097,"Rua Ponta Porã","","Barcelona",9267,8,-20.173272,-40.2441883
+29166100,"Rua Alegre","","Barcelona",9267,8,-20.1726832,-40.2588565
+29166101,"Rua Marabá","","Barcelona",9267,8,-20.1764324,-40.2445402
+29166102,"Rua Feira de Santana","","Barcelona",9267,8,-20.1690588,-40.2543378
+29166103,"Rua Chapecó","","Barcelona",9267,8,-20.1690276,-40.2444294
+29166105,"Rua Trombetas","","Barcelona",9267,8,-20.1768604,-40.2443053
+29166110,"Rua Guarapari","","Barcelona",9267,8,-20.1726732,-40.2583715
+29166113,"Rua Bragança","","Barcelona",9267,8,-20.1757308,-40.2437414
+29166115,"Rua Borba","","Barcelona",9267,8,-20.174192,-40.2427159
+29166120,"Rua Jerônimo Monteiro","","Barcelona",9267,8,-20.1728741,-40.2579015
+29166125,"Rua Tefé","","Barcelona",9267,8,-20.1740619,-40.242245
+29166130,"Rua Santa Teresa","","Barcelona",9267,8,-20.1728735,-40.2574174
+29166135,"Rua Maués","","Barcelona",9267,8,-20.1734806,-40.2416838
+29166140,"Rua Cachoeiro de Itapemirim","","Barcelona",9267,8,-20.1729242,-40.2569431
+29166150,"Rua Marataízes","","Barcelona",9267,8,-20.1729197,-40.2564702
+29166155,"Avenida Anápolis","","Barcelona",9267,8,-20.1722151,-40.2438592
+29166160,"Rua Pouso Alegre","","Barcelona",9267,8,-20.1727009,-40.2559803
+29166165,"Avenida Teresópolis","","Barcelona",9267,8,-20.1730248,-40.2512653
+29166170,"Rua Itajaí","","Barcelona",9267,8,-20.1687422,-40.2470178
+29166175,"Rua Uberlândia","","Barcelona",9267,8,-20.1746362,-40.250292
+29166180,"Rua Sabará","","Barcelona",9267,8,-20.1728184,-40.2550442
+29166185,"Rua Nilópolis","","Barcelona",9267,8,-20.1728751,-40.2503086
+29166190,"Rua Congonhas","","Barcelona",9267,8,-20.1730706,-40.2540821
+29166195,"Rua Itaboraí","","Barcelona",9267,8,-20.173167,-40.2498192
+29166200,"Avenida Região Sudeste","","Barcelona",9267,8,-20.1723533,-40.2555095
+29166205,"Rua Jataí","","Barcelona",9267,8,-20.171503,-40.2443989
+29166210,"Rua Ipatinga","","Barcelona",9267,8,-20.1745129,-40.2526671
+29166215,"Rua Palmares","","Barcelona",9267,8,-20.1694815,-40.2560522
+29166220,"Rua Ouro Preto","","Barcelona",9267,8,-20.1743187,-40.2521965
+29166225,"Avenida Ribeirão Preto","","Barcelona",9267,8,-20.1750501,-40.2474387
+29166230,"Rua Juiz de Fora","","Barcelona",9267,8,-20.1744968,-40.2517156
+29166235,"Rua Foz do Iguaçú","","Barcelona",9267,8,-20.1699759,-40.2506999
+29166240,"Rua Uberaba","","Barcelona",9267,8,-20.174548,-40.2512296
+29166250,"Rua Araxá","","Barcelona",9267,8,-20.1742574,-40.2507713
+29166260,"Rua Resende","","Barcelona",9267,8,-20.1731843,-40.250781
+29166270,"Rua Governador Valadares","","Barcelona",9267,8,-20.1743455,-40.2498086
+29166280,"Avenida Campinas","","Barcelona",9267,8,-20.1743148,-40.249362
+29166290,"Rua Cabo Frio","","Barcelona",9267,8,-20.1727987,-40.2493734
+29166300,"Rua Guaçuí","","Barcelona",9267,8,-20.1747218,-40.2618274
+29166310,"Rua Guarujá","","Barcelona",9267,8,-20.1756478,-40.2488233
+29166320,"Rua Araçatuba","","Barcelona",9267,8,-20.1744966,-40.2488696
+29166330,"Rua Nova Friburgo","","Barcelona",9267,8,-20.1731598,-40.2489067
+29166340,"Rua Lorena","","Barcelona",9267,8,-20.1757929,-40.2483147
+29166350,"Rua Marília","","Barcelona",9267,8,-20.1742054,-40.248378
+29166360,"Avenida Campos","","Barcelona",9267,8,-20.1729753,-40.2483952
+29166370,"Rua Itu","","Barcelona",9267,8,-20.1756001,-40.2478777
+29166380,"Rua São Carlos","","Barcelona",9267,8,-20.1745381,-40.2479067
+29166390,"Rua Maricá","","Barcelona",9267,8,-20.1731332,-40.247903
+29166400,"Avenida Santarém","","Barcelona",9267,8,-20.1748721,-40.2431488
+29166420,"Rua Franca","","Barcelona",9267,8,-20.174207,-40.247433
+29166430,"Rua Valença","","Barcelona",9267,8,-20.1727968,-40.2474427
+29166440,"Rua Rio Claro","","Barcelona",9267,8,-20.1757242,-40.2469316
+29166450,"Rua Taubaté","","Barcelona",9267,8,-20.1745167,-40.2469662
+29166460,"Rua Búzios","","Barcelona",9267,8,-20.1731127,-40.2469403
+29166470,"Rua Osasco","","Barcelona",9267,8,-20.1758867,-40.2464462
+29166480,"Rua Sorocaba","","Barcelona",9267,8,-20.1741792,-40.2464783
+29166490,"Rua Macaé","","Barcelona",9267,8,-20.1728196,-40.246472
+29166500,"Avenida Região Sul","","Barcelona",9267,8,-20.1726154,-40.2454461
+29166510,"Avenida Petrópolis","","Barcelona",9267,8,-20.1736719,-40.2493648
+29166520,"Rua São Vicente","","Barcelona",9267,8,-20.1745204,-40.2460028
+29166530,"Rua Araruama","","Barcelona",9267,8,-20.173105,-40.2460095
+29166540,"Rua Marajó","","Barcelona",9267,8,-20.1768659,-40.2447842
+29166550,"Rua Tucuruí","","Barcelona",9267,8,-20.1759719,-40.2443423
+29166580,"Rua Castanhal","","Barcelona",9267,8,-20.1745266,-40.2436367
+29166590,"Rua Coari","","Barcelona",9267,8,-20.1735564,-40.2435207
+29166600,"Rua dos Canários","","Morada de Laranjeiras",9267,8,-20.129,-40.3209404
+29166610,"Rua dos Calafates","","Morada de Laranjeiras",9267,8,-20.1168499968,-40.3209404004
+29166620,"Rua dos Piriquitos","","Morada de Laranjeiras",9267,8,-20.1167599953,-40.308
+29166630,"Avenida dos Sabiás","","Morada de Laranjeiras",9267,8,-20.2142344,-40.2440223
+29166640,"Rua das Graúnas","","Morada de Laranjeiras",9267,8,-20.1753236,-40.2185773
+29166650,"Rua dos Rouxinóis","","Morada de Laranjeiras",9267,8,-20.1984624,-40.2264314
+29166660,"Rua dos Tangarás","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166670,"Rua das Garças","","Morada de Laranjeiras",9267,8,-20.2226986,-40.2201757
+29166680,"Rua das Patativas","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166690,"Rua dos Melros","","Morada de Laranjeiras",9267,8,-20.1534038,-40.2457999
+29166700,"Rua das Cotovias","","Morada de Laranjeiras",9267,8,-20.1979886,-40.2227411
+29166710,"Rua dos Uirapurus","","Morada de Laranjeiras",9267,8,-20.1166699967,-40.2948678899
+29166720,"Rua das Siriemas","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166730,"Rodovia ES-010","","Morada de Laranjeiras",9267,8,-20.1988597,-40.2132133
+29166731,"Rua dos Pica-paus","","Morada de Laranjeiras",9267,8,-20.2265602,-40.2150684
+29166732,"Rua dos Pardais","","Morada de Laranjeiras",9267,8,-20.1955503,-40.2220854
+29166733,"Rua dos Biguás","","Morada de Laranjeiras",9267,8,-20.1955503,-40.2220854
+29166735,"Rua das Saíras","","Morada de Laranjeiras",9267,8,-20.129,-40.3373315717
+29166736,"Rua dos Curiangos","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166765,"Rua dos Pintassilgos","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166766,"Rua das Maritacas","","Morada de Laranjeiras",9267,8,-20.1949502,-40.2244037
+29166767,"Rua dos Bem-te-vis","","Morada de Laranjeiras",9267,8,-20.1997628,-40.229791
+29166768,"Rua das Perdizes","","Morada de Laranjeiras",9267,8,-20.1951282,-40.2257606
+29166769,"Rua dos Sanhaços","","Morada de Laranjeiras",9267,8,-20.1538746,-40.2475066
+29166770,"Avenida dos Colibris","","Morada de Laranjeiras",9267,8,-20.1954261,-40.2234608
+29166773,"Rua dos Cardeais","","Morada de Laranjeiras",9267,8,-20.129,-40.2947720285
+29166774,"Rua dos Mainás","","Morada de Laranjeiras",9267,8,-20.1957812,-40.2335881
+29166820,"Avenida Copacabana","","Morada de Laranjeiras",9267,8,-20.1944135,-40.2335803
+29166821,"Rua Ipanema","","Morada de Laranjeiras",9267,8,-20.1921515,-40.2310349
+29166822,"Rua Amaralina","","Morada de Laranjeiras",9267,8,-20.1926763,-40.2300228
+29166823,"Rua Pituba","","Morada de Laranjeiras",9267,8,-20.1922635,-40.2301987
+29166824,"Rua Ondina","","Morada de Laranjeiras",9267,8,-20.1919418,-40.2305661
+29166825,"Rua Olivença","","Morada de Laranjeiras",9267,8,-20.191526,-40.2308024
+29166826,"Rua Parati","","Morada de Laranjeiras",9267,8,-20.1905787,-40.2309787
+29166827,"Rua Candeias","","Morada de Laranjeiras",9267,8,-20.1901244,-40.2310576
+29166828,"Avenida Paulo Pereira Gomes","","Morada de Laranjeiras",9267,8,-20.1977545,-40.2312201
+29166829,"Rua das Acerolas","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166830,"Rua dos Morangos","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166831,"Rua das Pitangas","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166832,"Rua dos Açaís","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166833,"Rua das Pêras","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166834,"Rua das Goiabas","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166835,"Rua das Mangas","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166836,"Rua dos Umbus","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166837,"Avenida das Laranjeiras","","Morada de Laranjeiras",9267,8,-20.1919967,-40.2245681
+29166842,"Rua Araruama","","Morada de Laranjeiras",9267,8,-20.1915701,-40.2274894
+29166843,"Rua Bertioga","","Morada de Laranjeiras",9267,8,-20.1909635,-40.2261518
+29166844,"Rua Guarujá","","Morada de Laranjeiras",9267,8,-20.1911601,-40.2277092
+29166845,"Rua Ubatuba","","Morada de Laranjeiras",9267,8,-20.1907458,-40.2279061
+29166846,"Rua Saquarema","","Morada de Laranjeiras",9267,8,-20.190325,-40.2280954
+29166847,"Rua Icaraí","","Morada de Laranjeiras",9267,8,-20.189424,-40.2286581
+29166849,"Rua Camboriú","","Morada de Laranjeiras",9267,8,-20.1936817,-40.2291065
+29166850,"Rua São Conrado","","Morada de Laranjeiras",9267,8,-20.1930956,-40.2283402
+29166851,"Rua Paquetá","","Morada de Laranjeiras",9267,8,-20.1935205,-40.2281619
+29166852,"Rua Piúma","","Morada de Laranjeiras",9267,8,-20.1933229,-40.2277276
+29166853,"Rua Atafona","","Morada de Laranjeiras",9267,8,-20.1940939,-40.228138
+29166854,"Rua Leblon","","Morada de Laranjeiras",9267,8,-20.1923345,-40.2255801
+29166855,"Rua Itajaí","","Morada de Laranjeiras",9267,8,-20.1928965,-40.2258578
+29166856,"Rua Marataízes","","Morada de Laranjeiras",9267,8,-20.1919277,-40.2257567
+29166857,"Rua Itacuruçá","","Morada de Laranjeiras",9267,8,-20.192602,-40.2246385
+29166860,"Rua Arpoador","","Morada de Laranjeiras",9267,8,-20.190492,-40.2267761
+29166864,"Rua Itaipava","","Morada de Laranjeiras",9267,8,-20.1929175,-40.2274085
+29166870,"Rua Minas Gerais","","Morada de Laranjeiras",9267,8,-20.1957812,-40.2335881
+29166871,"Rua Itamaracá","","Morada de Laranjeiras",9267,8,-20.1940292,-40.2305281
+29166872,"Rua Marambaia","","Morada de Laranjeiras",9267,8,-20.1938821,-40.2300865
+29166873,"Rua Pajuçara","","Morada de Laranjeiras",9267,8,-20.1937581,-40.2295856
+29166930,"Rua Minas Gerais 166","","Morada de Laranjeiras",9267,8,-20.1956691,-40.2373072
+29166931,"Rua Minas Gerais 70","","Morada de Laranjeiras",9267,8,-20.1956691,-40.2373072
+29167015,"Avenida Talma Rodrigues Ribeiro","","Alterosas",9267,8,-20.1707553,-40.2141249
+29167016,"Rua Fortaleza","","Alterosas",9267,8,-20.1848009,-40.2317465
+29167017,"Rua Maceió","","Alterosas",9267,8,-20.1835052,-40.2324819
+29167018,"Rua Niteroi","","Alterosas",9267,8,-20.1830405,-40.2307719
+29167019,"Rua Manaus","","Alterosas",9267,8,-20.1852552,-40.226183
+29167021,"Rua Natal","","Alterosas",9267,8,-20.1866618,-40.2231763
+29167022,"Rua São Luiz","","Alterosas",9267,8,-20.1872662,-40.2296728
+29167024,"Rua Amazonas","","Alterosas",9267,8,-20.1860861,-40.2334429
+29167027,"Rua Vitória","","Alterosas",9267,8,-20.1859123,-40.2328964
+29167028,"Rua Guanabara","","Alterosas",9267,8,-20.1850558,-40.2325662
+29167029,"Rua Brasília","","Alterosas",9267,8,-20.1855784,-40.2318061
+29167031,"Rua Curitiba","","Alterosas",9267,8,-20.1851977,-40.231299
+29167032,"Rua Rio de Janeiro","","Alterosas",9267,8,-20.1845515,-40.2308893
+29167033,"Rua Belo Horizonte","","Alterosas",9267,8,-20.1849554,-40.2295422
+29167036,"Rua Porto Alegre","","Alterosas",9267,8,-20.1841782,-40.2294239
+29167037,"Rua Olinda","","Alterosas",9267,8,-20.1876683,-40.2310575
+29167041,"Rua São Paulo","","Alterosas",9267,8,-20.1849096,-40.2301515
+29167042,"Rua Terezina","","Alterosas",9267,8,-20.1499555,-40.2347232
+29167044,"Rua Pará","","Alterosas",9267,8,-20.1846382,-40.2324449
+29167048,"Rua Reilly Duarte","","Alterosas",9267,8,-20.1858679,-40.2335141
+29167049,"Rua Fortaleza II","","Alterosas",9267,8,-20.1848009,-40.2317466
+29167051,"Rua Bahia","","Alterosas",9267,8,-20.1840195,-40.2325897
+29167080,"Avenida Eldes Scherrer Souza","","Colina de Laranjeiras",9267,8,-20.1944911,-40.2565549
+29167081,"Rua Herman Stern","","Colina de Laranjeiras",9267,8,-20.1859752,-40.2646665
+29167082,"Avenida Monte das Oliveiras","","Colina de Laranjeiras",9267,8,-20.1891137,-40.2558938
+29167083,"Avenida Mestre Álvaro","","Colina de Laranjeiras",9267,8,-20.1882251,-40.2583574
+29167085,"Avenida Monte Líbano","","Colina de Laranjeiras",9267,8,-20.1872492,-40.2581275
+29167087,"Rua Monte Verde","","Colina de Laranjeiras",9267,8,-20.1872519,-40.255536
+29167088,"Beco Norte Sul","","Colina de Laranjeiras",9267,8,-20.1906427,-40.2568647
+29167089,"Rua Monte Pascoal","","Colina de Laranjeiras",9267,8,-20.1866799,-40.2562833
+29167090,"Rua Monte Sinai","","Colina de Laranjeiras",9267,8,-20.1875597,-40.2564512
+29167091,"Rua Monte Ebal","","Colina de Laranjeiras",9267,8,-20.1882031,-40.2567032
+29167092,"Rua Monte Everest","","Colina de Laranjeiras",9267,8,-20.1887894,-40.2576401
+29167093,"Rua Monte Sião","","Colina de Laranjeiras",9267,8,-20.1890194,-40.2580623
+29167094,"Rua Monte dos Gêmeos","","Colina de Laranjeiras",9267,8,-20.1892135,-40.2585042
+29167095,"Rua Monte Horebe","","Colina de Laranjeiras",9267,8,-20.1893734,-40.2589602
+29167097,"Rua Monte Hermom","","Colina de Laranjeiras",9267,8,-20.189535,-40.2593914
+29167098,"Rua Monte Agá","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167099,"Rua Monte Moriá","","Colina de Laranjeiras",9267,8,-20.1894908,-40.2603675
+29167100,"Rua Monte Belo","","Colina de Laranjeiras",9267,8,-20.1886567,-40.2605682
+29167101,"Rua Monte Ararate","","Colina de Laranjeiras",9267,8,-20.1885326,-40.2610081
+29167102,"Rua Monte Gilboa","","Colina de Laranjeiras",9267,8,-20.1871787,-40.2591881
+29167103,"Rua Monte Betel","","Colina de Laranjeiras",9267,8,-20.1868316,-40.2587926
+29167104,"Rua Monte Gileade","","Colina de Laranjeiras",9267,8,-20.1872492,-40.2581275
+29167105,"Rua Monte Castelo","","Colina de Laranjeiras",9267,8,-20.186474,-40.2579376
+29167106,"Rua Monte do Caparaó","","Colina de Laranjeiras",9267,8,-20.186411,-40.257452
+29167107,"Rua Sylvia","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167108,"Rua Ana Maria","","Colina de Laranjeiras",9267,8,-20.1903745,-40.2604117
+29167111,"Rodovia Norte Sul","","Colina de Laranjeiras",9267,8,-20.1737077,-40.2534382
+29167114,"Avenida Central","","Colina de Laranjeiras",9267,8,-20.1886288538,-40.2625093194
+29167119,"Avenida Macanaíba","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167124,"Avenida Braúna","","Colina de Laranjeiras",9267,8,-20.1864144,-40.2546217
+29167128,"Rua Jatobá","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167129,"Rua Bicuíba","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167131,"Rua Imbirema","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167132,"Rua Peroba","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167134,"Rua Ipê","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167136,"Rua Arapoca","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167137,"Rua Anjico","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167138,"Rua Garibu","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167139,"Rua Cedro","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167142,"Rua Pinho","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167143,"Rua Jequitibá","","Colina de Laranjeiras",9267,8,-20.186917,-40.2565119
+29167163,"Rua Duque de Caxias","","Colina de Laranjeiras",9267,8,-20.2008412,-40.2495002
+29167167,"Rua Dona Tereza Cristina","","Colina de Laranjeiras",9267,8,-20.1917318,-40.2655685
+29167168,"Rua Dom Pedro II","","Colina de Laranjeiras",9267,8,-20.2000392,-40.2506655
+29167172,"Rua Barão do Rio Branco","","Colina de Laranjeiras",9267,8,-20.8184239,-49.5149953
+29167174,"Rua João Evangelista de Souza","","Colina de Laranjeiras",9267,8,-20.1917434,-40.2655194
+29167175,"Rua Dominique","","Colina de Laranjeiras",9267,8,-20.1913778,-40.2598744
+29167176,"Rua Beija-flor I","","Colina de Laranjeiras",9267,8,-20.1846987,-40.2629994
+29167178,"Rua Cristiano","","Colina de Laranjeiras",9267,8,-20.1908771,-40.2609152
+29167179,"Rua Catarina","","Colina de Laranjeiras",9267,8,-20.1911241,-40.2603929
+29167180,"Rua Bárbara","","Colina de Laranjeiras",9267,8,-20.1907738,-40.2614915
+29167183,"Rodovia Governador Mário Covas","","Colina de Laranjeiras",9267,8,-20.1732672,-40.2673531
+29167185,"Rua Klaus","","Colina de Laranjeiras",9267,8,-20.19125,-40.259297
+29167190,"Avenida Carolina","","Colina de Laranjeiras",9267,8,-20.1917135,-40.2605752
+29167300,"Avenida Talma Rodrigues Ribeiro","","Boulevard Lagoa",9267,8,-20.164045,-40.1971306
+29167523,"Avenida Domingos José Martins","","Novo Porto Canoa",9267,8,-20.1456897,-40.2559105
+29167524,"Rua Agenor Pereira dos Santos","","Novo Porto Canoa",9267,8,-20.1435029,-40.2539571
+29167525,"Rua Dom Marcos Teixeira","","Novo Porto Canoa",9267,8,-20.1435029,-40.2539571
+29167526,"Rua Antão de Mesquita","","Novo Porto Canoa",9267,8,-20.1456109,-40.2543334
+29167527,"Rua Francisco Nunes Marinho","","Novo Porto Canoa",9267,8,-20.1454365,-40.2536105
+29167528,"Rua Matias de Albuquerque","","Novo Porto Canoa",9267,8,-20.1460034,-40.2533161
+29167529,"Rua Índio Poti","","Novo Porto Canoa",9267,8,-20.146337,-40.2529003
+29167531,"Rua João Maurício de Nassau","","Novo Porto Canoa",9267,8,-20.1469707,-40.2520562
+29167532,"Rua João Fernandes Vieira","","Novo Porto Canoa",9267,8,-20.1471849,-40.2515818
+29167533,"Rua Regente Feijó","","Novo Porto Canoa",9267,8,-20.147404,-40.251095
+29167534,"Rua Henrique Dias","","Novo Porto Canoa",9267,8,-20.1476443,-40.2506408
+29167535,"Rua Rio Jucu","","Novo Porto Canoa",9267,8,-20.145401,-40.2596408
+29167536,"Avenida Rio Amazonas","","Novo Porto Canoa",9267,8,-20.1412031,-40.2521358
+29167537,"Rua Felipe dos Santos","","Novo Porto Canoa",9267,8,-20.1481722,-40.2518689
+29167539,"Rua André Vital de Negreiros","","Novo Porto Canoa",9267,8,-20.1480069,-40.2529826
+29167541,"Rua Ana Nery","","Novo Porto Canoa",9267,8,-20.1425272,-40.2589353
+29167542,"Rua Cristina da Silva","","Novo Porto Canoa",9267,8,-20.1435029,-40.2539571
+29167543,"Avenida São Paulo","","Novo Porto Canoa",9267,8,-20.1381851,-40.2533185
+29167547,"Rua Carcará","","Novo Porto Canoa",9267,8,-20.141303,-40.2492679
+29167548,"Rua Jaburu","","Novo Porto Canoa",9267,8,-20.1401312,-40.2529137
+29167549,"Rua Siriri","","Novo Porto Canoa",9267,8,-20.1394786,-40.2510997
+29167551,"Rua Colibri","","Novo Porto Canoa",9267,8,-20.1408199,-40.2529382
+29167552,"Rua Tiê","","Novo Porto Canoa",9267,8,-20.1413191,-40.2531604
+29167553,"Rua Juruva","","Novo Porto Canoa",9267,8,-20.1412477,-40.2539961
+29167554,"Rua Visconde do Rio Branco","","Novo Porto Canoa",9267,8,-20.1416201,-40.2543693
+29167556,"Rua Pimenta Bueno","","Novo Porto Canoa",9267,8,-20.1421765,-40.2552787
+29167557,"Rua Perdigão Malheiros","","Novo Porto Canoa",9267,8,-20.1424187,-40.2565567
+29167559,"Rua Joaquim Nabuco","","Novo Porto Canoa",9267,8,-20.1428018,-40.2546273
+29167561,"Servidão Juruva","","Novo Porto Canoa",9267,8,-20.1435029,-40.2539571
+29167562,"Servidão Visconde do Rio Branco","","Novo Porto Canoa",9267,8,-20.1435029,-40.2539571
+29167564,"Travessa Tiradentes","","Novo Porto Canoa",9267,8,-20.1411892,-40.2513143
+29167565,"Rua Coronel Belmiro Gouveia","","Novo Porto Canoa",9267,8,-20.1429263,-40.2494664
+29167566,"Rua Antônio Francisco Lisboa","","Novo Porto Canoa",9267,8,-20.1409264,-40.2502796
+29167567,"Rua Tiradentes","","Novo Porto Canoa",9267,8,-20.1411892,-40.2513143
+29167568,"Rua Princesa Isabel","","Novo Porto Canoa",9267,8,-20.1418741,-40.2505622
+29167569,"Rua Mestre Valentim","","Novo Porto Canoa",9267,8,-20.1422311,-40.2501761
+29167571,"Rua Teófilo Otoni","","Novo Porto Canoa",9267,8,-20.156424,-40.2659084
+29167572,"Rua Luiza Grimaldi","","Novo Porto Canoa",9267,8,-20.1435029,-40.2539571
+29167573,"Rua Antônio Conselheiro","","Novo Porto Canoa",9267,8,-20.1439061,-40.2497514
+29167574,"Rua José Clemente Pereira","","Novo Porto Canoa",9267,8,-20.144116,-40.2492373
+29167575,"Rua Marechal Rondon","","Novo Porto Canoa",9267,8,-20.1446489,-40.2490659
+29167576,"Rua Euzébio de Queiroz","","Novo Porto Canoa",9267,8,-20.1446559,-40.2483494
+29167577,"Rua Tavares Bastos","","Novo Porto Canoa",9267,8,-20.1449534,-40.2479405
+29167578,"Rua Rio Chuí","","Novo Porto Canoa",9267,8,-20.1445696,-40.2610119
+29167581,"Rua Rio Mearim","","Novo Porto Canoa",9267,8,-20.1439839,-40.2599284
+29167582,"Rua Rio Turiaçu","","Novo Porto Canoa",9267,8,-20.1449768,-40.2599839
+29167585,"Rua Martin Soares Moreno","","Novo Porto Canoa",9267,8,-20.1465964,-40.2524368
+29167586,"Rua Harpia","","Novo Porto Canoa",9267,8,-20.1410124,-40.2560624
+29167587,"Rua Jaó","","Novo Porto Canoa",9267,8,-20.1402507,-40.2520287
+29167588,"Servidão Tiê","","Novo Porto Canoa",9267,8,-20.1435029,-40.2539571
+29167589,"Rua Vasco Fernandes Coutinho","","Novo Porto Canoa",9267,8,-20.1429264,-40.2502213
+29167601,"Beco 13 de Novembro","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167602,"Beco da Conceição II","","Taquara II",9267,8,-20.1795442,-40.2595
+29167603,"Beco 8 de Junho","","Taquara II",9267,8,-20.2045227,-40.2786046
+29167604,"Beco 4 de Fevereiro","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167605,"Escadaria Batinga","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167606,"Beco 10 de Agosto","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167607,"Beco Bom Jesus","","Taquara II",9267,8,-20.1816152,-40.2588613
+29167608,"Rua dos Eucaliptos","","Taquara II",9267,8,-20.1813485,-40.2587758
+29167609,"Rua Túlio Ambrósio de Oliveira","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167610,"Beco do Sossego","","Taquara II",9267,8,-20.1801126,-40.260594
+29167611,"Beco Dois Irmãos","","Taquara II",9267,8,-20.1804959,-40.2555726
+29167613,"Beco 5 de Março","","Taquara II",9267,8,-20.1803224,-40.2590132
+29167614,"Beco 6 de Abril","","Taquara II",9267,8,-20.1803563,-40.259006
+29167616,"Beco da Esperança","","Taquara II",9267,8,-20.2020944,-40.2390944
+29167617,"Beco da Conceição I","","Taquara II",9267,8,-20.1795442,-40.2595
+29167619,"Beco 9 de Julho","","Taquara II",9267,8,-20.1788848,-40.2550848
+29167620,"Beco 11 de Setembro","","Taquara II",9267,8,-20.1795818,-40.2562333
+29167622,"Beco 14 de Dezembro","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167623,"Beco Boa Vista","","Taquara II",9267,8,-20.13487,-40.2868458
+29167625,"Beco 7 de Maio","","Taquara II",9267,8,-20.1784807,-40.2592063
+29167626,"Rua Santa Luzia","","Taquara II",9267,8,-20.2042013,-40.2757836
+29167627,"Beco Manoel Lopes","","Taquara II",9267,8,-20.180155,-40.2571513
+29167628,"Beco 12 de Outubro","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167629,"Beco São João","","Taquara II",9267,8,-20.180325,-40.2564828
+29167630,"Beco 2 de Janeiro","","Taquara II",9267,8,-20.2098752,-40.2594041
+29167631,"Travessa Brasil","","Taquara II",9267,8,-20.2131925,-40.2384422
+29167632,"Travessa Palmeirinha","","Taquara II",9267,8,-20.1791873,-40.2525386
+29167633,"Travessa 13 de Maio","","Taquara II",9267,8,-20.1802619,-40.2585935
+29167634,"Travessa 21 de Abril","","Taquara II",9267,8,-20.1802619,-40.2585935
+29167635,"Rodovia Governador Mário Covas","","Taquara II",9267,8,-20.1732672,-40.2673531
+29167637,"Rua São Jorge I","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167638,"Rua Manoel Lopes","","Taquara II",9267,8,-20.1795119,-40.2603557
+29167639,"Rua João Lopes","","Taquara II",9267,8,-20.1785705,-40.2601469
+29167642,"Rua Campinho","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167644,"Rua da Conceição","","Taquara II",9267,8,-20.1795442,-40.2595
+29167645,"Rua Julia Eler Dela Costa","","Taquara II",9267,8,-20.1799561,-40.2549053
+29167647,"Rua 13 de Maio","","Taquara II",9267,8,-20.1794416,-40.2589904
+29167649,"Rua Cedrolândia","","Taquara II",9267,8,-20.1801507,-40.2567365
+29167650,"Rua Samuel Meira Brasil","","Taquara II",9267,8,-20.1781036,-40.2580074
+29167652,"Rua Dois Irmãos","","Taquara II",9267,8,-20.1804959,-40.2555726
+29167653,"Rua São Jorge II","","Taquara II",9267,8,-20.1786891,-40.2552345
+29167654,"Rua Palmeirinha","","Taquara II",9267,8,-20.1805591,-40.2558114
+29167655,"Rua Vila Nova","","Taquara II",9267,8,-20.1797141,-40.2555287
+29167656,"Rua 7 de Setembro","","Taquara II",9267,8,-20.1787812,-40.2557013
+29167657,"Rua Geraldo Silveira","","Taquara II",9267,8,-20.1797413,-40.2650842
+29167660,"Avenida Porto Canoa","","Taquara II",9267,8,-20.158586,-40.2539802
+29167662,"Rua Portobrás","","Taquara II",9267,8,-20.178296,-40.2604987
+29167720,"Rua Doutor Arnaldo Andrade","","Taquara I",9267,8,-20.1824556,-40.2632541
+29167726,"Rua Dom João Batista","","Taquara I",9267,8,-20.1835358,-40.2697567
+29167730,"Rua Coronel Walfredo Francisco Paiva","","Taquara I",9267,8,-20.181453,-40.2635422
+29167732,"Rua das Flores","","Taquara I",9267,8,-20.1819484,-40.2614198
+29167734,"Rua dos Pássaros","","Taquara I",9267,8,-20.1818776,-40.260671
+29167736,"Rua José Salles Nogueira","","Taquara I",9267,8,-20.1834706,-40.2644625
+29167738,"Rua da Glória","","Taquara I",9267,8,-20.1798507,-40.2643287
+29167740,"Rua Carlos Nicolete Madeira","","Taquara I",9267,8,-20.1842828,-40.2631905
+29167742,"Rua José da Costa Muniz","","Taquara I",9267,8,-20.1835128,-40.2623279
+29167743,"Beco Cláudio da Cunha","","Taquara I",9267,8,-20.183539,-40.2659342
+29167744,"Rua Santo Antônio","","Taquara I",9267,8,-20.1821298,-40.2598699
+29167745,"Beco José da Costa Muniz","","Taquara I",9267,8,-20.1835128,-40.2623279
+29168595,"Rua dos Melros","","Porto Canoa",9267,8,-20.1534038,-40.2457999
+29168600,"Avenida Brasília","","Porto Canoa",9267,8,-20.1525059,-40.2510208
+29168605,"Rua Pernalta","","Porto Canoa",9267,8,-20.1529075,-40.245943
+29168615,"Rua dos Patos","","Porto Canoa",9267,8,-20.1524933,-40.2462564
+29168620,"Rua dos Socós","","Porto Canoa",9267,8,-20.1512095,-40.2505406
+29168625,"Rua do Faisão","","Porto Canoa",9267,8,-20.1520512,-40.2465379
+29168630,"Rua do Tizil","","Porto Canoa",9267,8,-20.1519537,-40.2496197
+29168635,"Rua dos Maçaricos","","Porto Canoa",9267,8,-20.151811,-40.2472545
+29168640,"Rua das Japiras","","Porto Canoa",9267,8,-20.150968,-40.2500489
+29168650,"Rua dos Guachos","","Porto Canoa",9267,8,-20.1516111,-40.249232
+29168655,"Rua do Falcão","","Porto Canoa",9267,8,-20.1511554,-40.2482278
+29168660,"Rua dos Pombos","","Porto Canoa",9267,8,-20.1506662,-40.2496234
+29168665,"Rua dos Araçaris","","Porto Canoa",9267,8,-20.1512893,-40.2473277
+29168670,"Rua dos Gaviões","","Porto Canoa",9267,8,-20.1513304,-40.2487607

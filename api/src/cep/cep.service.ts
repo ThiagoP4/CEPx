@@ -43,7 +43,9 @@ export class CepService implements OnModuleInit {
             .map((destino: any) => {
                 const distancia = geokdbush.distance(origem.lon, origem.lat, destino.lon, destino.lat);
                 return {
-                    ...destino,
+                    cep: destino.cep,
+                    logradouro: destino.logradouro,
+                    cidade: destino.cidade,
                     distanciaKm: (distancia.toFixed(2))
                 };
             });

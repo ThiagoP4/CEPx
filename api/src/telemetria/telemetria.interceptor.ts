@@ -6,6 +6,7 @@ import * as winston from 'winston';
 @Injectable()
 export class TelemetriaInterceptor implements NestInterceptor {
   // Configuração do Winston para gravar em arquivo JSON
+  // O logger escreve métricas em um arquivo local em vez de console.
   private readonly fileLogger = winston.createLogger({
     format: winston.format.combine(
       winston.format.timestamp(),
@@ -17,13 +18,18 @@ export class TelemetriaInterceptor implements NestInterceptor {
   });
 
   intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
+    // Captura dados da requisição HTTP atual.
     const req = context.switchToHttp().getRequest();
+    // Marca o tempo inicial para medir duração da requisição.
     const inicio = performance.now();
+    // Captura o uso de CPU no início do processamento.
     const cpuInicio = process.cpuUsage();
 
     return next.handle().pipe(
       tap(() => {
+        // Calcula o uso de CPU desde o início da requisição.
         const cpuFim = process.cpuUsage(cpuInicio);
+        // Captura uso atual de memória do processo.
         const mem = process.memoryUsage();
 
         const logEstruturado = {

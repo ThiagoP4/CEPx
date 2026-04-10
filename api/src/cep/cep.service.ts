@@ -5,6 +5,9 @@ import csv from 'csv-parser';
 import KDBush from 'kdbush';
 import * as geokdbush from 'geokdbush';
 
+// Serviço de CEP que carrega a base enriquecida, monta um índice espacial
+// e responde consultas por CEPs próximos dentro de um raio.
+
 // Interface: um CEP individual carregado na memória
 interface CepEntry {
     cep: string;
@@ -18,10 +21,14 @@ interface CepEntry {
 @Injectable()
 export class CepService implements OnModuleInit {
 
+    // Índice espacial usado para buscas por proximidade.
     private index: KDBush | null = null;
+    // Lista completa de CEPs carregados na memória.
     private ceps: CepEntry[] = [];
+    // Contador de registros carregados para logs e validação.
     private totalCarregados = 0;
 
+    // Lifecycle hook do NestJS: carrega os dados ao iniciar o módulo.
     async onModuleInit(): Promise<void> {
         const dataDir = path.resolve(__dirname, '..', '..', 'data');
 
@@ -40,9 +47,11 @@ export class CepService implements OnModuleInit {
 
         console.log(`Carregando ${arquivosCsv.length} arquivo(s) CSV com coordenadas reais...`);
 
+        // Lê todos os arquivos do diretório em paralelo.
         const promessas = arquivosCsv.map(f => this.lerCsvEnriquecido(path.join(dataDir, f)));
         const resultados = await Promise.all(promessas);
 
+        // Une todos os CEPs carregados em uma lista única.
         this.ceps = resultados.flat();
         this.totalCarregados = this.ceps.length;
 
@@ -51,12 +60,14 @@ export class CepService implements OnModuleInit {
             return;
         }
 
-        // Monta o índice espacial direto com as coordenadas reais
+        // Monta o índice espacial direto com as coordenadas reais.
+        // Isso permite consultas de proximidade rápidas usando latitude/longitude.
         this.index = new KDBush(this.ceps, (p) => p.lon, (p) => p.lat);
 
         console.log(`Índice espacial criado com sucesso! ${this.totalCarregados.toLocaleString('pt-BR')} CEPs carregados.`);
     }
 
+    // Lê um arquivo CSV enriquecido e transforma cada linha em um objeto CepEntry.
     private lerCsvEnriquecido(csvPath: string): Promise<CepEntry[]> {
         return new Promise((resolve, reject) => {
             const dados: CepEntry[] = [];
@@ -70,7 +81,7 @@ export class CepService implements OnModuleInit {
                     const lat = parseFloat(linha.lat);
                     const lon = parseFloat(linha.lon);
 
-                    // Pula as linhas que o robô não conseguiu achar a coordenada no Cep Aberto
+                    // Pula as linhas que não possuem coordenadas válidas.
                     if (isNaN(lat) || isNaN(lon)) return;
 
                     const cepFormatado = `${cepLimpo.substring(0, 5)}-${cepLimpo.substring(5)}`;
@@ -107,11 +118,13 @@ export class CepService implements OnModuleInit {
 
         const cepLimpo = cepOrigem.replace(/\D/g, '');
 
+        // Localiza o CEP de origem dentro da base carregada.
         const origem = this.ceps.find(item => item.cep.replace(/\D/g, '') === cepLimpo);
         if (!origem) {
             throw new NotFoundException(`CEP ${cepOrigem} não encontrado na base de dados.`);
         }
 
+        // Consulta o índice espacial por todos os pontos dentro do raio.
         const indicesVizinhos: number[] = geokdbush.around(
             this.index,
             origem.lon,
@@ -134,6 +147,7 @@ export class CepService implements OnModuleInit {
                 };
             });
 
+        // Ordena os resultados pelo filtro de raio e aplica paginação simples.
         const total = todosVizinhos.length;
         const vizinhosPaginados = todosVizinhos.slice(offset, offset + limit);
 

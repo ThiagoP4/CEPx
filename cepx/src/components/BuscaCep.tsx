@@ -1,6 +1,8 @@
 import { useState, useCallback } from 'react';
 import './BuscaCep.css';
 
+// Componente para buscar CEPs próximos usando a API de busca por raio.
+
 // ─── Tipos ──────────────────────────────────────────────────────────────────
 
 interface CepVizinho {
@@ -39,14 +41,21 @@ const PAGE_LIMIT = 50;
 
 // ─── Utilitários ─────────────────────────────────────────────────────────
 
+/**
+ * Formata uma string de CEP adicionando a máscara padrão (XXXXX-XXX).
+ * Garante que apenas números sejam mantidos e limita a 8 dígitos.
+ */
 function formatarCep(valor: string): string {
   const apenas = valor.replace(/\D/g, '').slice(0, 8);
+  // Assim que o usuário digitar o 6º número, injeta o hífen na posição correta
   if (apenas.length > 5) {
     return `${apenas.slice(0, 5)}-${apenas.slice(5)}`;
   }
   return apenas;
 }
-
+/**
+ * Valida se o CEP está completo para envio à API.
+ */
 function cepValido(valor: string): boolean {
   return valor.replace(/\D/g, '').length === 8;
 }
@@ -61,6 +70,7 @@ function mensagemDeErro(status: number, body: any): string {
 // ─── Componente ───────────────────────────────────────────────────────────
 
 export default function BuscaCep() {
+  // Estados do formulário e do resultado da busca.
   const [cep, setCep] = useState('');
   const [raio, setRaio] = useState('10');
   const [loading, setLoading] = useState(false);
@@ -73,6 +83,7 @@ export default function BuscaCep() {
 
   // ─── Busca inicial ──────────────────────────────────────────────────────
 
+  // Executa a busca principal no servidor, valida o CEP e o raio antes de enviar.
   const realizarBusca = useCallback(async () => {
     setError(null);
 
@@ -121,6 +132,7 @@ export default function BuscaCep() {
 
   // ─── Carregar mais ──────────────────────────────────────────────────────
 
+  // Busca a próxima página de resultados quando há mais CEPs disponíveis.
   const carregarMais = useCallback(async () => {
     if (!paginacao?.proximoOffset) return;
 
@@ -144,6 +156,7 @@ export default function BuscaCep() {
 
   // ─── Handlers de input ──────────────────────────────────────────────────
 
+  // Atualiza o CEP com máscara enquanto o usuário digita.
   const handleCepChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setCep(formatarCep(e.target.value));
   };
@@ -161,6 +174,7 @@ export default function BuscaCep() {
 
   // ─── Render ─────────────────────────────────────────────────────────────
 
+  // Verifica se existe mais páginas para carregar.
   const temMais = paginacao !== null && paginacao.proximoOffset !== null;
   const carregados = vizinhos.length;
   const total = paginacao?.total ?? 0;

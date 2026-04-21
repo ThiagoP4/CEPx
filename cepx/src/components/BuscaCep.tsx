@@ -11,27 +11,27 @@ interface CepVizinho {
   bairro: string;
   cidade: string;
   distanciaKm: number;
-}
+} // Estrutura do Cep do CSV
 
 interface OrigemData {
   cep: string;
   logradouro: string;
   bairro: string;
   cidade: string;
-}
+} // Estrutura do Cep digitado
 
 interface Paginacao {
   total: number;
   limit: number;
   offset: number;
   proximoOffset: number | null;
-}
+} // Index para não percorrer o CSV a cada requisição
 
 interface RespostaApi {
   origem: OrigemData;
   paginacao: Paginacao;
   vizinhos: CepVizinho[];
-}
+} // Resposta da API
 
 // ─── Constantes ───────────────────────────────────────────────────────────
 

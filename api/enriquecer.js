@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
+require('dotenv').config();
 
 // 1. CONFIGURAÇÕES
-const API_TOKEN = '***';
+const API_TOKEN = process.env.CEP_ABERTO_TOKEN;
 const ARQUIVO_ENTRADA = path.join(__dirname, 'data', 'ceps_sp.csv'); // Arquivo original
 const ARQUIVO_SAIDA = path.join(__dirname, 'data', 'ceps_sp_enriquecido.csv'); // Arquivo final
 
